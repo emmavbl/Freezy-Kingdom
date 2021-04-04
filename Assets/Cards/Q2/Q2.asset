@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
-  m_Name: Q1
+  m_Name: Q2
   m_EditorClassIdentifier: 
-  cardName: Salut
-  canBePicked: 0
+  cardName: Q2
+  canBePicked: 1
   picked: 0
-  content: J'ai plus de 18 ans ?
+  content: Hakuna...
   answers:
-  - {fileID: 11400000, guid: 9e91395b4535b5a42b5e1914ed0e4072, type: 2}
-  - {fileID: 11400000, guid: 5dc8b73bda9211e439a53655b375bfd5, type: 2}
-  - {fileID: 11400000, guid: d26b7db6668259b4ea8a48c5d2c6b79e, type: 2}
+  - {fileID: 11400000, guid: a0786f200a19e5d4c90dce6c7496865c, type: 2}
+  - {fileID: 11400000, guid: 1158ed24b0df18448be02dffcb44b80d, type: 2}
+  - {fileID: 11400000, guid: a4073556f548b744eb0f341d91515d96, type: 2}
+  - {fileID: 11400000, guid: 698ecb3b7e0f9df4d85b4b39eb6ff50e, type: 2}
