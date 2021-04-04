@@ -8,8 +8,9 @@ public class DisplayQuestion : MonoBehaviour
 {
     public Card card;
     public TextMeshProUGUI questionText;
+    public GameObject buttonPrefab;
 
-    public Button[] answerButtons;
+    public GameObject[] buttonsPosition;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,8 @@ public class DisplayQuestion : MonoBehaviour
 		for (int i = 0; i < card.answers.Length; i++)
 		{
             Answer a = card.answers[i];
-            Debug.Log(answerButtons[i]);
-            answerButtons[i].GetComponentInChildren<Text>().text = a.content;
+            GameObject temp = Instantiate(buttonPrefab, buttonsPosition[i].transform.position, Quaternion.identity, transform);
+            temp.GetComponentInChildren<Text>().text = a.content;
         }
 
     }

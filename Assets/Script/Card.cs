@@ -11,4 +11,6 @@ public class Card : ScriptableObject
 	public string content;
 	public Answer[] answers;
 
+	// public Character character;
+
 }
