@@ -14,7 +14,7 @@ public class Answer : ScriptableObject
 	public Card[] toUnlock;
 
 
-	void Action()
+	public void Action()
 	{
 		Debug.Log("Activate answer " + content);
 	}

@@ -21,6 +21,7 @@ public class DisplayQuestion : MonoBehaviour
             Answer a = card.answers[i];
             GameObject temp = Instantiate(buttonPrefab, buttonsPosition[i].transform.position, Quaternion.identity, transform);
             temp.GetComponentInChildren<Text>().text = a.content;
+            temp.GetComponent<ButtonAnswer>().answer = a;
         }
 
     }
