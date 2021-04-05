@@ -7,15 +7,25 @@ public class Answer : ScriptableObject
 {
 	public string content;
 
-	public float wealth;
-	public float ecosystem;
-	public float community;
+	[SerializeField] public Stats stats; 
+	public Card[] cardToUnlock;
 
-	public Card[] toUnlock;
+	// End endToUnlock;
+	// Deck deckToUnlock;
 
+	// Place placeToUnlock
 
 	public void Action()
 	{
 		Debug.Log("Activate answer " + content);
+
+		// store stats in game manager
+
+		// si possible :
+			// put card as playable
+			// add deck to playable
+			// set end in game manager
+
+		// add place to map
 	}
 }

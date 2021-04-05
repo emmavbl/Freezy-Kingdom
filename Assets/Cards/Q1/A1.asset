@@ -13,7 +13,4 @@ MonoBehaviour:
   m_Name: A1
   m_EditorClassIdentifier: 
   content: non
-  wealth: 0
-  ecosystem: 0
-  community: 0
-  toUnlock: []
+  cardToUnlock: []

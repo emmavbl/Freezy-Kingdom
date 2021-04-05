@@ -7,6 +7,7 @@ public class StartCinematic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Animate sprite
         Invoke("Continue", 2);
     }
 

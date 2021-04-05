@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: A3
   m_EditorClassIdentifier: 
   content: Je ne sais plus
-  wealth: 0
-  ecosystem: 0
+  wealth: -1
+  ecosystem: 1
   community: 0
-  toUnlock: []
+  cardToUnlock: []

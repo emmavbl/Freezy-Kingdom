@@ -24,6 +24,11 @@ public class DisplayQuestion : MonoBehaviour
             temp.GetComponent<ButtonAnswer>().answer = a;
         }
 
+        // set card as picked
+        GameManager GM = FindObjectOfType<GameManager>();
+        GM.played.Add(GM.playable.Remove(card));
+        //GM.Turn();
+
     }
 
 
