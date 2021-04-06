@@ -22,4 +22,9 @@ public class Card : ScriptableObject
 		// set picked to false
 	}
 
+	public bool IsEqual(Card c)
+	{
+		return this.GetInstanceID() == c.GetInstanceID();
+	}
+
 }

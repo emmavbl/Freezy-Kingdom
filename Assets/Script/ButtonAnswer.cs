@@ -9,6 +9,7 @@ public class ButtonAnswer : MonoBehaviour
     public void onClick()
 	{
 		answer.Action();
+		FindObjectOfType<GameManager>().DisplayNextCard();
 	}
 
 }

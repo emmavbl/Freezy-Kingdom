@@ -474,14 +474,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f71e42ba13b52046a0f65181cb9c75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playable: []
-  played: []
+  startingDecks:
+  - {fileID: 11400000, guid: 4a4b3b14acc337f459d7f0f7f3a56c24, type: 2}
+  playable: {fileID: 0}
+  notPlayable: {fileID: 0}
+  played: {fileID: 0}
   schoolDeck: {fileID: 0}
   fishingDeck: {fileID: 0}
   bankDeck: {fileID: 0}
   turn: 0
   currentPlace: 0
   activatedEnd: {fileID: 0}
+  end: 0
+  statsDisplay: {fileID: 1393968027407599561, guid: c5064501db8ba604a8600161bb14c0e1, type: 3}
+  statText: {fileID: 278757792147534805, guid: 710101cca33ff5a438ee99697c5f4c1f, type: 3}
 --- !u!4 &1073830274
 Transform:
   m_ObjectHideFlags: 0
@@ -782,7 +788,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Jouer
 --- !u!222 &1836585277
 CanvasRenderer:
   m_ObjectHideFlags: 0

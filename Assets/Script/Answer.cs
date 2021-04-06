@@ -19,6 +19,7 @@ public class Answer : ScriptableObject
 	{
 		Debug.Log("Activate answer " + content);
 
+		FindObjectOfType<GameManager>().AddStats(stats);
 		// store stats in game manager
 
 		// si possible :

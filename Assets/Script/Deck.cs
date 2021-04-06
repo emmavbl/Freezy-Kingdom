@@ -55,6 +55,12 @@ public class Deck : ScriptableObject
         return list;
     }
 
+    public Card RandomCard()
+	{
+        int index = Random.Range(0,cards.Count);
+        return cards[index];
+	}
+
 
     #region Debug
     public override string ToString()
