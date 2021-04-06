@@ -139,28 +139,30 @@ public class GameManager : MonoBehaviour
 
     public void Night()
 	{
-        GameObject display = GameObject.Find("StatsDisplay");
-        Debug.Log(display);
+
+        // I was trying to create a new scene but
+        // finally i'll just try to put a interface on
+        // top of game scene displaying le results
+
+        //GameObject display = GameObject.Find("StatsDisplay");
+        //Debug.Log(display);
 
 
-		for (int i = 0; i < turnStats.Count; i++)
-		{
-            Stats stat = turnStats.ElementAt<Stats>(i);
+		//for (int i = 0; i < turnStats.Count; i++)
+		//{
+  //          Stats stat = turnStats.ElementAt<Stats>(i);
 
-            // Add turnStat to stats
-            stats.Add(stat);
-            GameObject UItextGO = new GameObject("Text");
-            GameObject text = Instantiate(statText,
-                display.GetComponent<DisplayStats>().statsPosition.ElementAt(i).transform.position,
-                Quaternion.identity,
-                display.GetComponent<DisplayStats>().statsPosition.ElementAt(i).transform);
-            text.GetComponent<Text>().text = stat.wealth + " " + stat.community + " " + stat.ecosystem;
-		}         // display on screen the stats made during the turn
+  //          // Add turnStat to stats
+  //          stats.Add(stat);
+  //          GameObject UItextGO = new GameObject("Text");
+  //          GameObject text = Instantiate(statText,
+  //              display.GetComponent<DisplayStats>().statsPosition.ElementAt(i).transform.position,
+  //              Quaternion.identity,
+  //              display.GetComponent<DisplayStats>().statsPosition.ElementAt(i).transform);
+  //          text.GetComponent<Text>().text = stat.wealth + " " + stat.community + " " + stat.ecosystem;
+		//}         // display on screen the stats made during the turn
        
             
-
-
-
 
         // reset stats for next turn
         turnStats = new List<Stats>();
