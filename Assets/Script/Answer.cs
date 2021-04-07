@@ -7,13 +7,13 @@ public class Answer : ScriptableObject
 {
 	public string content;
 
-	[SerializeField] public Stats stats; 
+	[SerializeField] public Stats stats;
 	public Card[] cardToUnlock;
+	public End endToUnlock;
 
-	// End endToUnlock;
-	// Deck deckToUnlock;
+	public Deck deckToUnlock;
 
-	// Place placeToUnlock
+	public Place placeToUnlock;
 
 	public void Action()
 	{
@@ -23,10 +23,10 @@ public class Answer : ScriptableObject
 		// store stats in game manager
 
 		// si possible :
-			// put card as playable
+			// put card as playable (notplayable/played -> playable)
 			// add deck to playable
 			// set end in game manager
 
-		// add place to map
+			// add place to map
 	}
 }

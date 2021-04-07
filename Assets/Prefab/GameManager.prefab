@@ -45,9 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingDecks:
   - {fileID: 11400000, guid: 4a4b3b14acc337f459d7f0f7f3a56c24, type: 2}
-  playable: {fileID: 0}
-  notPlayable: {fileID: 0}
-  played: {fileID: 0}
   schoolDeck: {fileID: 0}
   fishingDeck: {fileID: 0}
   bankDeck: {fileID: 0}
@@ -55,5 +52,4 @@ MonoBehaviour:
   currentPlace: 0
   activatedEnd: {fileID: 0}
   end: 0
-  statsDisplay: {fileID: 1393968027407599561, guid: c5064501db8ba604a8600161bb14c0e1, type: 3}
-  statText: {fileID: 278757792147534805, guid: 710101cca33ff5a438ee99697c5f4c1f, type: 3}
+  nightScreen: {fileID: 0}

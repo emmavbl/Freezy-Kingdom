@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
+  m_Name: 001_Question
+  m_EditorClassIdentifier: 
+  cardName: troplloin
+  canBePicked: 1
+  content: "Des enfants ne peuvent pas se rendre \xE0 l'\xE9cole car ils vivent trop
+    loin   "
+  answers:
+  - {fileID: 11400000, guid: 29fd95c24315f314c98826ead6b09d33, type: 2}
+  - {fileID: 11400000, guid: 875f8d1405cd5ee4d98f15d031beba15, type: 2}
+  - {fileID: 11400000, guid: c3594926bcf05344c8fa21f5a3ba29d5, type: 2}
+  - {fileID: 11400000, guid: bf622f71b08bc6f4dbd1de8feb027cfa, type: 2}

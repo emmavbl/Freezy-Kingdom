@@ -445,17 +445,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863108672}
   m_CullTransparentMesh: 1
---- !u!114 &1073830273 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
-  m_PrefabInstance: {fileID: 1478381919151174927}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f71e42ba13b52046a0f65181cb9c75b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1144040119
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1073830273}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: GetScene
         m_Mode: 3
@@ -802,6 +791,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: schoolDeck
+      value: 
+      objectReference: {fileID: 11400000, guid: ba0e7fabd8b179647af91902013e8b14, type: 2}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: fishingDeck
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e33e269cd7cf924693d98038761baac, type: 2}
     - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
       propertyPath: nightScreen
       value: 

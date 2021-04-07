@@ -52,13 +52,11 @@ public class GameManager : MonoBehaviour
     {
         if (inst == null)
         {
-            Debug.Log("define inst");
             inst = this;
             InitGame();
         }
         else
         {
-            Debug.Log("delete inst");
             Destroy(gameObject);
 			return;
 		}
@@ -108,12 +106,10 @@ public class GameManager : MonoBehaviour
 		// initialisation
 		// choose character
 
-		while (!end)
-		{
-			Turn();
-			turn++;
-            end = true;
-		}
+		Turn();
+
+		//turn++;
+
 
 		//ResetGame();
 	}
@@ -176,11 +172,6 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void EndNigth()
-	{
-        Destroy(GetComponent<DisplayStats>().gameObject);
-        Turn();
-	}
 
     List<Card> GenerateDayDeck(int number)
 	{

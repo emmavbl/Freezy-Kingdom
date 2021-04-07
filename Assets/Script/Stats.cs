@@ -7,8 +7,8 @@ public class Stats
 {
     // current game stats (scale from 0 to 40)
     public float wealth;
-    public float ecosystem;
     public float community;
+    public float ecosystem;
 
     public Stats( int _wealth, int _ecosystem, int _community)
 	{
