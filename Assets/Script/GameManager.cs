@@ -12,21 +12,21 @@ public enum Place
 public class GameManager : MonoBehaviour
 {
     // GameManager is a Singleton, there is only one instance of it
-    public static GameManager inst;
+    public static GameManager inst = null;
 
     // Player
     // Character currentCharacter;
 
     // current game stats (scale from 0 to 40)
-    Stats stats = new Stats(20, 20, 20);
+    static Stats stats = new Stats(20, 20, 20);
 
     // All decks of questions-card 
     [SerializeField] Deck[] startingDecks; // do not modify ! 
 
     // my stacks of played and playable card
-    public Deck playable;
-    public Deck notPlayable; // not yet playable cards
-    public Deck played;
+    public static Deck playable;
+    public static Deck notPlayable; // not yet playable cards
+    public static Deck played;
 
     // game decks
     Deck[] currentGameDecks;
@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     public Deck bankDeck;
 
     // Game parameters
-    List<Card> turnDeck;
+    static List<Card> turnDeck;
     List<Stats> turnStats = new List<Stats>(); // stats in the turn
     public int turn = 0;
     public Place currentPlace = Place.Castle;
@@ -45,26 +45,29 @@ public class GameManager : MonoBehaviour
     // Evenement en cours ?
 
     //Other 
-    [SerializeField] GameObject statsDisplay;
-    [SerializeField] GameObject statText;
+    public GameObject nightScreen;
+    //[SerializeField] GameObject statText;
 
     private void Awake()
     {
         if (inst == null)
         {
+            Debug.Log("define inst");
             inst = this;
+            InitGame();
         }
         else
         {
-            return;
-        }
-
+            Debug.Log("delete inst");
+            Destroy(gameObject);
+			return;
+		}
         DontDestroyOnLoad(gameObject);
     }
 
-	private void Start()
+	private void InitGame()
 	{
-        Debug.Log("start");
+        Debug.Log("init gameManager obj");
 
         playable = SetEmptyDeck("playable");
         notPlayable = SetEmptyDeck("notplayable");
@@ -117,52 +120,41 @@ public class GameManager : MonoBehaviour
 
     public void Turn()
 	{
-        turnDeck = GenerateDayDeck(2);
+        // question lieu si lieu accesible
+
+        ConsoleDecks();
+        // genere le deck de 3 question
+        turnDeck = GenerateDayDeck(3);
+
 		foreach (Card item in turnDeck)
 		{
             Debug.Log(item.cardName);
 		}
+
         DisplayNextCard();
-        // Debug.Log(cardsToPlay);
-
-        //FindObjectOfType<DisplayQuestion>().card = cardsToPlay.ElementAt<Card>(0);
-
-        //ConsoleDecks();
-        // question lieu si lieu accesible
-        // genere le deck de 3 question
-        // (en fonction des évenements en cours, niveau de jauge, ...)
-        // 3 fois :
-        //      question 
-        //      decrement all card lifetime
-        // Nigth()
     }
 
     public void Night()
 	{
+        // display on screen the stats made during the turn
+        GameObject temp_screen = Instantiate(nightScreen,
+            FindObjectOfType<Canvas>().transform.position,
+            Quaternion.identity,
+            FindObjectOfType<Canvas>().transform);
 
-        // I was trying to create a new scene but
-        // finally i'll just try to put a interface on
-        // top of game scene displaying le results
+        temp_screen.GetComponent<DisplayStats>().SetStats(turnStats);
 
-        //GameObject display = GameObject.Find("StatsDisplay");
-        //Debug.Log(display);
+		// Add turnStat to stats
+		foreach (Stats s in turnStats)
+		{
+            stats.Add(s);
+		}
 
+        Debug.Log(stats.Print());
 
-		//for (int i = 0; i < turnStats.Count; i++)
-		//{
-  //          Stats stat = turnStats.ElementAt<Stats>(i);
+        // increment turn and decrement played.cards.lifetime 
+        // check if some played.cards are replayable 
 
-  //          // Add turnStat to stats
-  //          stats.Add(stat);
-  //          GameObject UItextGO = new GameObject("Text");
-  //          GameObject text = Instantiate(statText,
-  //              display.GetComponent<DisplayStats>().statsPosition.ElementAt(i).transform.position,
-  //              Quaternion.identity,
-  //              display.GetComponent<DisplayStats>().statsPosition.ElementAt(i).transform);
-  //          text.GetComponent<Text>().text = stat.wealth + " " + stat.community + " " + stat.ecosystem;
-		//}         // display on screen the stats made during the turn
-       
-            
 
         // reset stats for next turn
         turnStats = new List<Stats>();
@@ -173,7 +165,6 @@ public class GameManager : MonoBehaviour
 
     public void DisplayNextCard()
 	{
-        Debug.Log(turnDeck.Count);
 		if (turnDeck.Count <= 0)
 		{
             Debug.Log("end the turn");
@@ -182,30 +173,42 @@ public class GameManager : MonoBehaviour
 		}
         FindObjectOfType<DisplayQuestion>().UpdateToCard(turnDeck.ElementAt<Card>(0));
         turnDeck.RemoveAt(0);
+
     }
+
+    public void EndNigth()
+	{
+        Destroy(GetComponent<DisplayStats>().gameObject);
+        Turn();
+	}
 
     List<Card> GenerateDayDeck(int number)
 	{
         List<Card> cards = new List<Card>();
+        ConsoleDecks();
 		while (cards.Count < number)
 		{
-            //ConsoleDecks();
             Card c = playable.RandomCard();
-            if(! cards.Contains(c)) // if cards does not contains the picked card 
+            if(! cards.Contains(c)) // if deck does not yet contains the picked card 
 			{
+                // add the card
                 cards.Add(c);
-                //remove from playable and add to played
+
+                // remove from playable and add to played
+                playable.Remove(c);
+                played.Add(c);
 			} 
 		}
         return cards;
 	}
 
+
+    #region Fonction Usuelles (AddDeck, GetSCene, ...)
     public void AddStats(Stats s)
 	{
         turnStats.Add(s);
 	}
 
-    #region Fonction Usuelles (AddDeck, GetSCene)
     // add deck to game stacks playable and not(yet)playable
     private void AddDeck(Deck deck)
 	{
@@ -236,6 +239,7 @@ public class GameManager : MonoBehaviour
         Debug.Log(playable);
         Debug.Log(played);
         Debug.Log(notPlayable);
+        Debug.Log("Turn :" + turn);
     }
 
     #endregion

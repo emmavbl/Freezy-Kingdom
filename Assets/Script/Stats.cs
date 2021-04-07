@@ -19,8 +19,13 @@ public class Stats
 
     public void Add(Stats stats)
 	{
-        wealth = stats.wealth;
-        ecosystem = stats.ecosystem;
-        community = stats.community;
+        wealth += stats.wealth;
+        ecosystem += stats.ecosystem;
+        community += stats.community;
     }
+
+    public string Print()
+	{
+        return "(" + wealth + "," + community + "," + ecosystem + ")";
+	}
 }

@@ -30,13 +30,13 @@ public class DisplayQuestion : MonoBehaviour
 	{
         card = _card;
 
-        questionText.text = card.content;
+        questionText.text = _card.content;
 
         // destroy previous buttons
-        ButtonAnswer[] buttons =  GetComponents<ButtonAnswer>();
-		foreach (ButtonAnswer button in buttons)
+        Button[] buttons =  GetComponentsInChildren<Button>();
+		foreach (Button button in buttons)
 		{
-            Destroy(button);
+            Destroy(button.gameObject);
 		}
 
         // give them back !
