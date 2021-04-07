@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
   m_Name: 001_Question
   m_EditorClassIdentifier: 
-  cardName: troplloin
+  cardName: trop_loin
   canBePicked: 1
   content: "Des enfants ne peuvent pas se rendre \xE0 l'\xE9cole car ils vivent trop
     loin   "

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b2c645d2787e5a4aacf03b682cdf5e8, type: 3}
+  m_Name: BankDeck
+  m_EditorClassIdentifier: 
+  deckName: Bank
+  cards:
+  - {fileID: 11400000, guid: 5ea036fb18c2908448348bfdd364d5af, type: 2}
+  - {fileID: 11400000, guid: ccd42919aa4d23747a1dd7a32b659cf5, type: 2}
+  - {fileID: 11400000, guid: b663c882e8b2bf8459d81500a164f1d5, type: 2}
+  - {fileID: 11400000, guid: b3c247b7447a23741b412b21b02828a7, type: 2}
+  - {fileID: 11400000, guid: c3f5b71762b30bd48b9666265bd8bc96, type: 2}
+  - {fileID: 11400000, guid: c8c494fc5ff1e8c4d99c1fdae035cece, type: 2}
+  - {fileID: 11400000, guid: e7f9ba1bf0bac32418b28c73ba9d14cf, type: 2}
+  - {fileID: 11400000, guid: 2dac3e1770b043740a9706c89caeb414, type: 2}

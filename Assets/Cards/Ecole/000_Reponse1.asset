@@ -15,7 +15,9 @@ MonoBehaviour:
   content: Faire attention les un.e.s aux autres
   stats:
     wealth: -1
-    community: -1
+    community: 1
     ecosystem: 1
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0

@@ -19,4 +19,5 @@ MonoBehaviour:
     ecosystem: -2
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0

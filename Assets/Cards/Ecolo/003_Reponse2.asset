@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 003_Reponse2
   m_EditorClassIdentifier: 
-  content: Mangez le cuit vapeur
+  content: Mangez-le cuit vapeur
   stats:
     wealth: 0
     community: -2
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0

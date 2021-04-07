@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 004_Reponse4
   m_EditorClassIdentifier: 
-  content: Les poissons, c'est suffisants
+  content: Les poissons, c'est suffisant
   stats:
     wealth: 2
     community: -2
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0

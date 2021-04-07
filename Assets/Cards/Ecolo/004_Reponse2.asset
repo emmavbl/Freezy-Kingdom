@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 004_Reponse2
   m_EditorClassIdentifier: 
-  content: Developpons une gamme de boite de conserves
+  content: "D\xE9veloppons une gamme de bo\xEEte de conserves"
   stats:
     wealth: 0
     community: 1
     ecosystem: -1
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
