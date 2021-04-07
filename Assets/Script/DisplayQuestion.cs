@@ -31,6 +31,7 @@ public class DisplayQuestion : MonoBehaviour
         card = _card;
 
         questionText.text = _card.content;
+        Debug.Log(card.lifeTime);
 
         // destroy previous buttons
         Button[] buttons =  GetComponentsInChildren<Button>();

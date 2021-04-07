@@ -8,18 +8,18 @@ public class Card : ScriptableObject
 
 	public bool canBePicked;
 	//public bool picked = false;
-	int lifeTime = 0;
+	public int lifeTime = 0;
 
 	public string content;
 	public Answer[] answers;
 
 	// public Character character;
 
-	public void decrementTurn()
+
+	// init lifetime for the first use
+	public void initLifeTime()
 	{
-		// decrement lifetime if not null
-		// if lifetime = 0 ?
-		// set picked to false
+		lifeTime = 2;
 	}
 
 	public bool IsEqual(Card c)

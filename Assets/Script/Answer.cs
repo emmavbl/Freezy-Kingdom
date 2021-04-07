@@ -17,16 +17,32 @@ public class Answer : ScriptableObject
 
 	public void Action()
 	{
-		Debug.Log("Activate answer " + content);
 
-		FindObjectOfType<GameManager>().AddStats(stats);
 		// store stats in game manager
+		GameManager GM = FindObjectOfType<GameManager>();
+		GM.AddStats(stats);
 
-		// si possible :
-			// put card as playable (notplayable/played -> playable)
-			// add deck to playable
-			// set end in game manager
+	// si possible :
+		// put card as playable (notplayable/played -> playable)
+		GM.FindAndPutInPlayable(cardToUnlock);
 
-			// add place to map
+		// add deck to playable
+		if(deckToUnlock != null)
+		{
+			GM.AddDeck(deckToUnlock);
+		}
+		
+		// add place to Game Manager
+		if(placeToUnlock != Place.Castle)
+		{
+			GM.AddPlace(placeToUnlock);
+		}
+		
+		// set end in game manager
+		if (endToUnlock != null)
+		{
+			Debug.Log("End triggered");
+		}
+
 	}
 }

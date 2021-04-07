@@ -27,7 +27,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8942730476675644738}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -37,8 +37,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -381.98, y: -257}
-  m_SizeDelta: {x: 164.5894, y: 56.4086}
+  m_AnchoredPosition: {x: 0, y: -47.985565}
+  m_SizeDelta: {x: 685.0662, y: 137.1244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8942730476675644742
 CanvasRenderer:
@@ -182,7 +182,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -35.042, y: -13.1258}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8942730476976678043
 CanvasRenderer:
@@ -225,4 +225,5 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 'lormihrfjbsfdvhjcsdkvbc jhdfvb cjhdfvc sbdfkvn dfnjbv fjb vndkfjnbv df,c
+    bvldfjqbv dsljvb dlfjgbv gfkjb vldjbgfv ldjbfv jsk:v :fjgblsdgljfbv '

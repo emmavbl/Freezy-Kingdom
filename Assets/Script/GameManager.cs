@@ -77,7 +77,6 @@ public class GameManager : MonoBehaviour
 
         currentGameDecks = startingDecks;
         ResetGame();
-        ConsoleDecks();
     }
     
 
@@ -108,7 +107,6 @@ public class GameManager : MonoBehaviour
 
 		Turn();
 
-		//turn++;
 
 
 		//ResetGame();
@@ -117,9 +115,10 @@ public class GameManager : MonoBehaviour
     public void Turn()
 	{
         // question lieu si lieu accesible
-
-        ConsoleDecks();
+        turn++;
         // genere le deck de 3 question
+        CheckReusableCard();
+        ConsoleDecks();
         turnDeck = GenerateDayDeck(3);
 
 		foreach (Card item in turnDeck)
@@ -176,36 +175,89 @@ public class GameManager : MonoBehaviour
     List<Card> GenerateDayDeck(int number)
 	{
         List<Card> cards = new List<Card>();
-        ConsoleDecks();
 		while (cards.Count < number)
 		{
-            Card c = playable.RandomCard();
-            if(! cards.Contains(c)) // if deck does not yet contains the picked card 
+            if (playable.cards.Count > 0)
 			{
-                // add the card
-                cards.Add(c);
+                Card c = playable.RandomCard();
+                if(! cards.Contains(c)) // if deck does not yet contains the picked card 
+			    {
+                    // add the card
+                    cards.Add(c);
 
-                // remove from playable and add to played
-                playable.Remove(c);
-                played.Add(c);
-			} 
+                    // remove from playable and add to played
+                    playable.Remove(c);
+                    c.initLifeTime();
+                    played.Add(c);
+			    } 
+			} else
+			{
+                break;
+            }
 		}
         return cards;
 	}
 
+    void CheckReusableCard()
+	{
+        List<Card> toRemove =  new List<Card>();
+		foreach (Card card in played.cards)
+		{
+            card.lifeTime--;
+            if (card.lifeTime <= 0)
+			{
+                toRemove.Add(card);
+				if (card.canBePicked)
+				{
+                    playable.Add(card);
+				}
+				else
+				{
+                    notPlayable.Add(card);
+				}
+			}
+		}
+        foreach(Card c in toRemove)
+		{
+            played.Remove(c);
+		}
+	}
 
-    #region Fonction Usuelles (AddDeck, GetSCene, ...)
+	public void FindAndPutInPlayable(Card[] cardToUnlock)
+	{
+		for (int i = 0; i < cardToUnlock.Length; i++)
+		{
+            var c = cardToUnlock[i];
+            Debug.Log(c.cardName + " unlocke");
+            playable.Add(c);
+            if (notPlayable.cards.Contains(c))
+			{
+                notPlayable.Remove(c);
+			} else if (played.cards.Contains(c))
+			{
+                played.Remove(c);
+            }
+        }
+	}
+
+    public void AddPlace(Place place)
+	{
+        placesState[place] = true;
+    }
+
+    // add deck to game stacks playable and not(yet)playable
+    public void AddDeck(Deck deck)
+	{
+        Debug.Log(deck.deckName);
+        playable.Add(deck.Playable());
+        notPlayable.Add(deck.NotPlayable());
+    }
+
+    #region Fonction Usuelles (AddStats, GetSCene, ...)
     public void AddStats(Stats s)
 	{
         turnStats.Add(s);
 	}
-
-    // add deck to game stacks playable and not(yet)playable
-    private void AddDeck(Deck deck)
-	{
-        playable.Add(deck.Playable());
-        notPlayable.Add(deck.NotPlayable());
-    }
 
     //generate a Card List of nb randomly picked playable cards
 
