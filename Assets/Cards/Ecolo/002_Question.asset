@@ -15,4 +15,8 @@ MonoBehaviour:
   cardName: miracle
   canBePicked: 1
   content: "La p\xEAche est miraculeuse   "
-  answers: []
+  answers:
+  - {fileID: 11400000, guid: 0617260e570af624db9eaf41bd4aba6e, type: 2}
+  - {fileID: 11400000, guid: 713556d2ff6162542a4c9a7a550fd8c9, type: 2}
+  - {fileID: 11400000, guid: d275c0586e942dd40b01b02a0582e2ed, type: 2}
+  - {fileID: 11400000, guid: d7853db9c20c8df4186c4f604ab3cadd, type: 2}

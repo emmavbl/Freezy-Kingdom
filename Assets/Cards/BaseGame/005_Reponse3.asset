@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 005_Reponse3
   m_EditorClassIdentifier: 
-  content: "Non, faisons les travailler aux champs plut\xF4t"
+  content: "Non, faisons-les travailler aux champs plut\xF4t"
   stats:
     wealth: 2
     community: -2

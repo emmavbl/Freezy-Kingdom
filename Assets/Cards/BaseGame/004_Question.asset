@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
   m_Name: 004_Question
   m_EditorClassIdentifier: 
-  cardName: 
+  cardName: jacuzzi
   canBePicked: 1
-  content: 'Dans mon igloo, chacun.e paie sa part parce qu''on partage tout. Mais
-    moi je veux vraiment un jacuzzi et pas les autres.   '
+  content: 'Dans mon igloo, on partage tout, y compris les frais. Mais moi je veux
+    vraiment un jacuzzi et pas les autres donc personne ne veut payer avec moi.   '
   answers:
   - {fileID: 11400000, guid: 454c4e0c735094446b754f093d5618f8, type: 2}
   - {fileID: 11400000, guid: bb966581f00d1b648b6cd8519795472b, type: 2}

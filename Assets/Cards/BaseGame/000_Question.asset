@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: M. Morse
   canBePicked: 1
-  content: "M. Morse passe le chasse-neige tous les matins et \xE7a me r\xE9veille"
+  content: "M. Morse passe le chasse-neige tous les matins et \xE7a me r\xE9veille   "
   answers:
   - {fileID: 11400000, guid: bf9e963eb1abad24ea26ad052bcb60bc, type: 2}
   - {fileID: 11400000, guid: a54e05fabcac614429a9df5ffb7db52e, type: 2}

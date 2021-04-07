@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 001_Reponse4
   m_EditorClassIdentifier: 
-  content: "Faisons les travailler au trou \xE0 poisson alors"
+  content: "Faisons-les p\xEAcher avec les autres alors"
   stats:
     wealth: 2
     community: -2
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0

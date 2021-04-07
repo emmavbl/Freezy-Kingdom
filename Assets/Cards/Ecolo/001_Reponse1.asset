@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 001_Reponse1
   m_EditorClassIdentifier: 
-  content: Intensifier la production de nourriture
+  content: Intensifions la production de nourriture
   stats:
     wealth: 0
     community: 0
     ecosystem: -2
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0

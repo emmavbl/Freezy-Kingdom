@@ -15,4 +15,8 @@ MonoBehaviour:
   cardName: cuisine
   canBePicked: 1
   content: 'Comment devrais-je manger mon poisson ?   '
-  answers: []
+  answers:
+  - {fileID: 11400000, guid: 0b05cd0eb688625489ad9936545a8ab9, type: 2}
+  - {fileID: 11400000, guid: 1b3ac20ce30865a40b8a5538602077cc, type: 2}
+  - {fileID: 11400000, guid: 6b6d0289430587c4e9839de92095e792, type: 2}
+  - {fileID: 11400000, guid: 2c81f332e8caf10419de0db34fb55509, type: 2}

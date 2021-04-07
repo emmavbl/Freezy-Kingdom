@@ -15,4 +15,8 @@ MonoBehaviour:
   cardName: diversification
   canBePicked: 1
   content: 'Nous souhaitons diversifier la production de nourriture   '
-  answers: []
+  answers:
+  - {fileID: 11400000, guid: 99a7b74fb4309c14f9603b3d2b3fa764, type: 2}
+  - {fileID: 11400000, guid: b0b664503728fb24aa2d3927a174898b, type: 2}
+  - {fileID: 11400000, guid: 622e1b10132990c42af982b309bb3974, type: 2}
+  - {fileID: 11400000, guid: 741c8743bbc28184a8140674fde85720, type: 2}

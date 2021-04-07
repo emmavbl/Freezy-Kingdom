@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 001_Reponse3
   m_EditorClassIdentifier: 
-  content: Ca t'apprendra
+  content: "\xC7a t'apprendra"
   stats:
     wealth: 0
     community: -3
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0

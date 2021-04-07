@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 004_Reponse1
   m_EditorClassIdentifier: 
-  content: "Plantons des arbres \xE0 poissons pann\xE9s"
+  content: "Plantons des arbres \xE0 poissons pan\xE9s"
   stats:
     wealth: -2
     community: 1
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0

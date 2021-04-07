@@ -15,4 +15,8 @@ MonoBehaviour:
   cardName: famine
   canBePicked: 1
   content: "Le peuple ne mange pas \xE0 sa faim   "
-  answers: []
+  answers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

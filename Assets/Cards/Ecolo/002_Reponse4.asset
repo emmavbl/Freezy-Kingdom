@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: "Faisons des r\xE9serves"
   stats:
-    wealth: 0
+    wealth: 1
     community: 1
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
