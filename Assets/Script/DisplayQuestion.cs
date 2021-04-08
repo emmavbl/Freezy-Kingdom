@@ -7,7 +7,7 @@ using TMPro;
 public class DisplayQuestion : MonoBehaviour
 {
     public Card card;
-    public TextMeshProUGUI questionText;
+    public Text questionText;
     public GameObject buttonPrefab;
 
     public GameObject[] buttonsPosition;
