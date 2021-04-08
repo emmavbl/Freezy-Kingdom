@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
   m_Name: 006_Question
   m_EditorClassIdentifier: 
-  cardName: Poissons
+  cardName: S_poissons
   canBePicked: 1
+  lifeTime: 0
   content: "Le peuple d\xE9sire que l'on construise un lieu de p\xEAche et de r\xE9colte
     pour se nourrir convenablement   "
   answers:

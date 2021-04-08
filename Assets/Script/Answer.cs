@@ -9,7 +9,7 @@ public class Answer : ScriptableObject
 
 	[SerializeField] public Stats stats;
 	public Card[] cardToUnlock;
-	public End endToUnlock;
+	public End endToUnlock = null;
 
 	public Deck deckToUnlock;
 
@@ -42,6 +42,8 @@ public class Answer : ScriptableObject
 		if (endToUnlock != null)
 		{
 			Debug.Log("End triggered");
+			GM.end = true;
+			GM.activatedEnd= endToUnlock;
 		}
 
 	}

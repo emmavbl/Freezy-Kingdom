@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
   m_Name: 005_Question
   m_EditorClassIdentifier: 
-  cardName: Ecole
+  cardName: S_school
   canBePicked: 1
+  lifeTime: 0
   content: "Le peuple demande la construction d'une \xE9cole   "
   answers:
   - {fileID: 11400000, guid: 4f49c7423989d4f4a96c44211f0984e1, type: 2}

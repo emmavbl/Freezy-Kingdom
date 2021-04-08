@@ -23,8 +23,18 @@ public class DisplayStats : MonoBehaviour
     }
     public void EndNigth()
     {
+
+        var GM = FindObjectOfType<GameManager>();
+
+        if (GM.end)
+        {
+            Debug.Log("Game Over");
+            GM.GameOver();
+            return;
+        };
+
         Destroy(GetComponent<DisplayStats>().gameObject);
-        FindObjectOfType<GameManager>().Turn();
+        GM.Turn();
     }
 
     public void SetStats(List<Stats> stats)

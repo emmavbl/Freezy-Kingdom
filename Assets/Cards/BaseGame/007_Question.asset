@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
   m_Name: 007_Question
   m_EditorClassIdentifier: 
-  cardName: banque
+  cardName: S_banque
   canBePicked: 1
+  lifeTime: 0
   content: "Construisons une banque pour \xEAtre comp\xE9titifs"
   answers:
   - {fileID: 11400000, guid: 3949546339533e84299b8ab86a8d1347, type: 2}

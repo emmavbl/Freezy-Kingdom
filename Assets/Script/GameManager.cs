@@ -42,7 +42,15 @@ public class GameManager : MonoBehaviour
     public End activatedEnd;
     public bool end = false;
     Dictionary<Place, bool> placesState = new Dictionary<Place, bool>(); //true if in add in game, else false
-    // Evenement en cours ?
+                                                                         // Evenement en cours ?
+    // Ends
+    public End tooMuchWealth;
+    public End tooLowWealth;
+    public End tooMuchCommunity;
+    public End tooLowCommunity;
+    public End tooMuchEcosystem;
+    public End tooLowEcosystem;
+
 
     //Other 
     public GameObject nightScreen;
@@ -106,19 +114,20 @@ public class GameManager : MonoBehaviour
 		// choose character
 
 		Turn();
-
-
-
-		//ResetGame();
 	}
 
     public void Turn()
 	{
-        // question lieu si lieu accesible
+        // question lieu si lieu accesible !!!
+
+
+
+
         turn++;
-        // genere le deck de 3 question
+        // check if some played.cards are replayable 
         CheckReusableCard();
         ConsoleDecks();
+        // genere le deck de 3 question
         turnDeck = GenerateDayDeck(3);
 
 		foreach (Card item in turnDeck)
@@ -147,14 +156,63 @@ public class GameManager : MonoBehaviour
 
         Debug.Log(stats.Print());
 
-        // increment turn and decrement played.cards.lifetime 
-        // check if some played.cards are replayable 
-
-
         // reset stats for next turn
         turnStats = new List<Stats>();
 
-        // check if end
+		if (!end)
+		{
+            // check if end activated by stats
+            KeyValuePair<Place, int> statEnd = stats.CheckEnd();
+
+            Debug.Log(statEnd);
+            if (statEnd.Value != 0)
+			{
+                Debug.Log("!end");
+				switch (statEnd.Key)
+				{
+					case Place.Fishing:
+						if (statEnd.Value == -1)
+						{
+                            activatedEnd = tooLowEcosystem;
+						} else
+						{
+                            activatedEnd = tooMuchEcosystem;
+
+                        }
+                        break;
+					case Place.School:
+                        if (statEnd.Value == -1)
+                        {
+                            activatedEnd = tooLowCommunity;
+                        }
+                        else
+                        {
+                            activatedEnd = tooMuchCommunity;
+                        }
+                        break;
+					case Place.Bank:
+                        if (statEnd.Value == -1)
+                        {
+                            activatedEnd = tooLowWealth;
+                        }
+                        else
+                        {
+                            activatedEnd = tooMuchWealth;
+                        }
+                        break;
+					default:
+						break;
+				}
+				end = true;
+			}
+		}
+
+	}
+
+    public void GameOver()
+	{
+        ResetGame();
+        GetScene(3);
 	}
 
 
