@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
+  m_Name: 016
+  m_EditorClassIdentifier: 
+  cardName: inondation
+  canBePicked: 1
+  lifeTime: 0
+  content: 'Le village voisin s''est fait inonder, on doit les aider !   '
+  answers:
+  - {fileID: 11400000, guid: 384a587d576a24743818cb8efb61b960, type: 2}
+  - {fileID: 11400000, guid: 0e3f2b011aca41d4a9a429c75c587f81, type: 2}
+  - {fileID: 11400000, guid: 790165aa86cb46d4b8cc4006ba967a65, type: 2}
+  - {fileID: 11400000, guid: 864494b509cd9e045b1d2c16b6b29732, type: 2}
+  character: {fileID: 0}

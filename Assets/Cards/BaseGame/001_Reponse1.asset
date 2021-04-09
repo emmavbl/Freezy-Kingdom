@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 001_Reponse1
   m_EditorClassIdentifier: 
-  content: "Bien s\xFBr, en voil\xE0 un nouveau"
+  content: "Bien s\xFBr, en voil\xE0 un nouveau."
+  question: {fileID: 11400000, guid: 83ae7fc223656d84d841f4b8c5c92436, type: 2}
   stats:
     wealth: -1
     community: 0
@@ -22,3 +23,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

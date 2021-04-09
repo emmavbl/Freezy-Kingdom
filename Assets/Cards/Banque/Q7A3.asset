@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Q7A3
   m_EditorClassIdentifier: 
   content: "Organisons une f\xEAte dans la navette avant de partir"
+  question: {fileID: 11400000, guid: 2dac3e1770b043740a9706c89caeb414, type: 2}
   stats:
     wealth: -2
     community: 1
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 11400000, guid: 80da8a5c6c5bdb34283f243824b0fd94, type: 2}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

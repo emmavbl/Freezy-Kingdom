@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
+  m_Name: 014
+  m_EditorClassIdentifier: 
+  cardName: fondue de banquise
+  canBePicked: 1
+  lifeTime: 0
+  content: "La banquise commence \xE0 fondre \xE0 cause du r\xE9chauffement climatique,
+    que faire ?   "
+  answers:
+  - {fileID: 11400000, guid: 0b65d133922240e4f87d6ed94736c346, type: 2}
+  - {fileID: 11400000, guid: bdbd6917404234446a898b5fc6a59374, type: 2}
+  - {fileID: 11400000, guid: ef587c8501159a2488adff9c4799d037, type: 2}
+  - {fileID: 11400000, guid: 9edbddc6e8324b2468a7427cc3bcf796, type: 2}
+  character: {fileID: 227997818878884776, guid: 0b4eae7798990084e87e1d5bf42b2211, type: 3}

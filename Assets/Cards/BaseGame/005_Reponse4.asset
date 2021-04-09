@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 005_Reponse4
   m_EditorClassIdentifier: 
   content: "Non, je ne pr\xE9f\xE8re pas"
+  question: {fileID: 11400000, guid: 533af368215cb6847b557c7b24444aeb, type: 2}
   stats:
     wealth: 0
     community: -2
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

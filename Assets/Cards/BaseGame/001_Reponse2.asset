@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: 001_Reponse2
   m_EditorClassIdentifier: 
   content: Cela ne se reproduira pas
+  question: {fileID: 11400000, guid: 83ae7fc223656d84d841f4b8c5c92436, type: 2}
   stats:
     wealth: 0
     community: -1
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Q0A4
   m_EditorClassIdentifier: 
   content: "Je vais garder \xE7a pour moi"
+  question: {fileID: 11400000, guid: 5ea036fb18c2908448348bfdd364d5af, type: 2}
   stats:
     wealth: 3
     community: 0
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

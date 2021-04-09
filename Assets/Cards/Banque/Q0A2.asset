@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: "Construisons un syst\xE8me pour r\xE9chauffer les igloos qui utilise
     des \xE9nergies renouvelables plut\xF4t que du charbon"
+  question: {fileID: 11400000, guid: 5ea036fb18c2908448348bfdd364d5af, type: 2}
   stats:
     wealth: 0
     community: 0
@@ -22,3 +23,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

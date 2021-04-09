@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Q3A1
   m_EditorClassIdentifier: 
   content: "D\xE9veloppons le commerce avec les contr\xE9es voisines"
+  question: {fileID: 11400000, guid: b3c247b7447a23741b412b21b02828a7, type: 2}
   stats:
     wealth: 2
     community: 0
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
+  m_Name: 018_3
+  m_EditorClassIdentifier: 
+  content: Choisis-en une qui te convient et je te la paierai.
+  question: {fileID: 11400000, guid: 42da165c7b99f584d824ad54e8a274e0, type: 2}
+  stats:
+    wealth: 0
+    community: 1
+    ecosystem: 0
+  cardToUnlock:
+  - {fileID: 11400000, guid: 0444cf6ad4fb1cb41a9038a670db8e41, type: 2}
+  endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15
