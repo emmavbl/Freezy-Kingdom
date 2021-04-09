@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Q5A4
   m_EditorClassIdentifier: 
   content: Je garde le butin pour moi
+  question: {fileID: 11400000, guid: c8c494fc5ff1e8c4d99c1fdae035cece, type: 2}
   stats:
     wealth: 1
     community: -2
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

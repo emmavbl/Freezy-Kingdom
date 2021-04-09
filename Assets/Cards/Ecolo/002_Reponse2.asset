@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: 002_Reponse2
   m_EditorClassIdentifier: 
   content: Exportons le surplus
+  question: {fileID: 11400000, guid: f50890567604c954d8a0e134fceaac08, type: 2}
   stats:
     wealth: 2
     community: 0
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

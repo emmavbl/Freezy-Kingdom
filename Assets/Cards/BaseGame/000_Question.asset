@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: M. Morse
   canBePicked: 1
+  lifeTime: 5
   content: "M. Morse passe le chasse-neige tous les matins et \xE7a me r\xE9veille   "
   answers:
   - {fileID: 11400000, guid: bf9e963eb1abad24ea26ad052bcb60bc, type: 2}
   - {fileID: 11400000, guid: a54e05fabcac614429a9df5ffb7db52e, type: 2}
   - {fileID: 11400000, guid: e76e8996855199e44a3776efb302f227, type: 2}
   - {fileID: 11400000, guid: 19adfd8787e76634abe5a95c44bbf8de, type: 2}
+  character: {fileID: 227997818878884776, guid: 0b4eae7798990084e87e1d5bf42b2211, type: 3}

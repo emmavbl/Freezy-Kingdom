@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: M. Morse 2
   canBePicked: 0
+  lifeTime: 0
   content: "Mon chasse-neige a disparu, \xE7a vous dit quelque chose ?   "
   answers:
   - {fileID: 11400000, guid: e694a3b665101ec4ea2e101d101769f1, type: 2}
   - {fileID: 11400000, guid: 96cab0bbef341ed4395271023530a47b, type: 2}
   - {fileID: 11400000, guid: ad06f9fb9a09a9f4bb52bd400bd947ac, type: 2}
   - {fileID: 11400000, guid: 1550321d4932ca24b9b00ac2b5007243, type: 2}
+  character: {fileID: 7091007467639817606, guid: 419597a7f3a71a7469f4fcb3064172c4, type: 3}

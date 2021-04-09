@@ -8,12 +8,14 @@ public class Card : ScriptableObject
 
 	public bool canBePicked;
 	//public bool picked = false;
+	[HideInInspector]
 	public int lifeTime = 0;
 
 	public string content;
 	public Answer[] answers;
 
 	public GameObject character;
+
 
 	public bool IsEqual(Card c)
 	{

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 000_Reponse1
   m_EditorClassIdentifier: 
   content: "Je lui ach\xE8terai un chasse-neige silencieux"
+  question: {fileID: 11400000, guid: 7adb2a24e0d654346a8dca55674afbd6, type: 2}
   stats:
     wealth: -1
     community: 1
@@ -20,3 +21,6 @@ MonoBehaviour:
   cardToUnlock:
   - {fileID: 11400000, guid: 83ae7fc223656d84d841f4b8c5c92436, type: 2}
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

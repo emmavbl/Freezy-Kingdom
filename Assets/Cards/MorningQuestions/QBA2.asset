@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
+  m_Name: QBA2
+  m_EditorClassIdentifier: 
+  content: "Je pref\xE8re rester au palais."
+  question: {fileID: 11400000, guid: 73aacd3b32b802349b7144a013f40768, type: 2}
+  stats:
+    wealth: 0
+    community: 0
+    ecosystem: 0
+  cardToUnlock: []
+  endToUnlock: {fileID: 0}
+  placeToUnlock: 3
+  lifetimeQuestion: 15
+  morningAnswer: -1

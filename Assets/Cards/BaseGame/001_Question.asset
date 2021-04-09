@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: M. Morse 1
   canBePicked: 0
+  lifeTime: 12
   content: 'J''ai vu que M. Morse avait un nouveau chasse-neige, j''en veux un aussi
     !   '
   answers:
@@ -21,3 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b712e45147b3d32428941bf95654690a, type: 2}
   - {fileID: 11400000, guid: 950166d5b8ec9b94786641ed4076bea8, type: 2}
   - {fileID: 11400000, guid: fbdb1f5597f57624d81295dc2e450772, type: 2}
+  character: {fileID: 7611522070233587872, guid: 4a3476d19f65f5b409a6944b783230f2, type: 3}

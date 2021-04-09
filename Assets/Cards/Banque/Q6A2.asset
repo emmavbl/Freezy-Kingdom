@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Q6A2
   m_EditorClassIdentifier: 
   content: "Lan\xE7ons imm\xE9diatement une mission vers la lune pour les faire r\xEAver"
+  question: {fileID: 11400000, guid: e7f9ba1bf0bac32418b28c73ba9d14cf, type: 2}
   stats:
     wealth: -1
     community: 2
@@ -22,3 +23,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

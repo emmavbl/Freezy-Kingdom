@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Q6A4
   m_EditorClassIdentifier: 
   content: 'Ne rien faire '
+  question: {fileID: 11400000, guid: e7f9ba1bf0bac32418b28c73ba9d14cf, type: 2}
   stats:
     wealth: 0
     community: -2
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

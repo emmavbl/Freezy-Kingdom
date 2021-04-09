@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: 001_Reponse1
   m_EditorClassIdentifier: 
   content: "Construisons une autre \xE9cole"
+  question: {fileID: 11400000, guid: a12efcea2e439944fae2237efcdb180a, type: 2}
   stats:
     wealth: -2
     community: 2
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

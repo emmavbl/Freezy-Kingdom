@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: 003_Reponse1
   m_EditorClassIdentifier: 
   content: "Je dirai \xE0 M. Morse de passer le chasse-neige plus tard"
+  question: {fileID: 11400000, guid: 3e671d62e1858454c860578b1690b168, type: 2}
   stats:
     wealth: 0
     community: 0
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 11400000, guid: 288f7a9c8199e3347a574526e098cc2f, type: 2}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

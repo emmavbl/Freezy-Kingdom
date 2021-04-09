@@ -24,25 +24,41 @@ public class GameManager : MonoBehaviour
     [SerializeField] Deck[] startingDecks; // do not modify ! 
 
     // my stacks of played and playable card
-    public static Deck playable;
-    public static Deck notPlayable; // not yet playable cards
-    public static Deck played;
+    //public static Deck playable;
+    //public static Deck notPlayable; // not yet playable cards
+    //public static Deck played;
 
     // game decks
     Deck[] currentGameDecks;
+    [HideInInspector]
+    public static Deck[] gameplayDeck = new Deck[3]; // 0: playable, 1: notplayable, 2: played
     public Deck schoolDeck;
+    [HideInInspector]
+    public static Deck[] schoolGameplayDeck = new Deck[3]; // 0: playable, 1: notplayable, 2: played
     public Deck fishingDeck;
+    [HideInInspector]
+    public static Deck[] fishingGameplayDeck = new Deck[3]; // 0: playable, 1: notplayable, 2: played
     public Deck bankDeck;
+    [HideInInspector]
+    public static Deck[] bankGameplayDeck = new Deck[3]; // 0: playable, 1: notplayable, 2: played
+
+    // current gameplay deck
+    public static Deck[] currentGameplayDeck = new Deck[3]; // 0: playable, 1: notplayable, 2: played
+
+    // card morning ask for going in place ?
+    public Card shoolCard;
+    public Card bankCard;
+    public Card fishingCard;
 
     // Game parameters
-    static List<Card> turnDeck;
+    public static List<Card> turnDeck;
     List<Stats> turnStats = new List<Stats>(); // stats in the turn
     public int turn = 0;
     public Place currentPlace = Place.Castle;
     public End activatedEnd;
     public bool end = false;
-    Dictionary<Place, bool> placesState = new Dictionary<Place, bool>(); //true if in add in game, else false
-                                                                         // Evenement en cours ?
+    static Dictionary<Place, bool> placesState = new Dictionary<Place, bool>(); //true if in add in game, else false
+
     // Ends
     public End tooMuchWealth;
     public End tooLowWealth;
@@ -75,10 +91,13 @@ public class GameManager : MonoBehaviour
 	{
         Debug.Log("init gameManager obj");
 
-        playable = SetEmptyDeck("playable");
-        notPlayable = SetEmptyDeck("notplayable");
-        played = SetEmptyDeck("played");
+        gameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
+        fishingGameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
+        schoolGameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
+        bankGameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
 
+
+        placesState.Add(Place.Castle, true);
         placesState.Add(Place.Bank, false);
         placesState.Add(Place.Fishing, false);
         placesState.Add(Place.School, false);
@@ -98,13 +117,19 @@ public class GameManager : MonoBehaviour
         end = false;
 
         // reset the playable decks
-        playable = SetEmptyDeck("playable");
-        notPlayable = SetEmptyDeck("notplayable");
-        played = SetEmptyDeck("played");
+        gameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
+        fishingGameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
+        schoolGameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
+        bankGameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
+
         foreach (var currentGameDeck in currentGameDecks)
         {
-            AddDeck(currentGameDeck);
+            AddDeck(gameplayDeck, currentGameDeck);
         }
+        AddDeck(fishingGameplayDeck, fishingDeck);
+        AddDeck(schoolGameplayDeck, schoolDeck);
+        AddDeck(bankGameplayDeck, bankDeck);
+
 
         // reset Place 
         currentPlace = Place.Castle;
@@ -123,19 +148,43 @@ public class GameManager : MonoBehaviour
 
     public void Turn()
 	{
-        // question lieu si lieu accesible !!!
-
-
-
-
         turn++;
-        // check if some played.cards are replayable 
-        CheckReusableCard();
-        ConsoleDecks();
-        // genere le deck de 3 question
-        turnDeck = GenerateDayDeck(3);
 
-        DisplayNextCard();
+        // question lieu si lieu accesible !!!
+        List<Place> accessiblePlace = new List<Place>();
+		foreach (var item in placesState)
+		{
+			if (item.Value)
+			{
+                accessiblePlace.Add(item.Key);
+			}
+		}
+
+        Place place = accessiblePlace.ElementAt<Place>(UnityEngine.Random.Range(0, accessiblePlace.Count));
+        Debug.Log("Choose place : " + place);
+		switch (place)
+		{
+			case Place.Fishing:
+                FindObjectOfType<DisplayQuestion>().UpdateToCard(fishingCard);
+                break;
+			case Place.School:
+                FindObjectOfType<DisplayQuestion>().UpdateToCard(shoolCard);
+                break;
+			case Place.Bank:
+                FindObjectOfType<DisplayQuestion>().UpdateToCard(bankCard);
+                break;
+			default:
+                currentGameplayDeck = gameplayDeck;
+                // check if some played.cards are replayable 
+                CheckReusableCard();
+                ConsoleDecks();
+                // genere le deck de 3 question
+                turnDeck = GenerateDayDeck(3);
+
+                DisplayNextCard();
+                break;
+		}
+
     }
 
     public void Night()
@@ -226,22 +275,22 @@ public class GameManager : MonoBehaviour
     }
 
 
-    List<Card> GenerateDayDeck(int number)
+    public List<Card> GenerateDayDeck(int number)
 	{
         List<Card> cards = new List<Card>();
 		while (cards.Count < number)
 		{
-            if (playable.cards.Count > 0)
+            if (currentGameplayDeck[0].cards.Count > 0)
 			{
-                Card c = playable.RandomCard();
+                Card c = currentGameplayDeck[0].RandomCard();
                 if(! cards.Contains(c)) // if deck does not yet contains the picked card 
 			    {
                     // add the card
                     cards.Add(c);
 
                     // remove from playable and add to played
-                    playable.Remove(c);
-                    played.Add(c);
+                    currentGameplayDeck[0].Remove(c);
+                    currentGameplayDeck[2].Add(c);
 			    } 
 			} else
 			{
@@ -251,10 +300,10 @@ public class GameManager : MonoBehaviour
         return cards;
 	}
 
-    void CheckReusableCard()
+    public void CheckReusableCard()
 	{
         List<Card> toRemove =  new List<Card>();
-		foreach (Card card in played.cards)
+		foreach (Card card in currentGameplayDeck[2].cards)
 		{
             card.lifeTime--;
             if (card.lifeTime <= 0)
@@ -262,17 +311,17 @@ public class GameManager : MonoBehaviour
                 toRemove.Add(card);
 				if (card.canBePicked)
 				{
-                    playable.Add(card);
+                    currentGameplayDeck[2].Add(card);
 				}
 				else
 				{
-                    notPlayable.Add(card);
+                    currentGameplayDeck[1].Add(card);
 				}
 			}
 		}
         foreach(Card c in toRemove)
 		{
-            played.Remove(c);
+            currentGameplayDeck[2].Remove(c);
 		}
 	}
 
@@ -282,13 +331,13 @@ public class GameManager : MonoBehaviour
 		{
             var c = cardToUnlock[i];
             Debug.Log(c.cardName + " unlocke");
-            playable.Add(c);
-            if (notPlayable.cards.Contains(c))
+            currentGameplayDeck[0].Add(c);
+            if (currentGameplayDeck[1].cards.Contains(c))
 			{
-                notPlayable.Remove(c);
-			} else if (played.cards.Contains(c))
+                currentGameplayDeck[1].Remove(c);
+			} else if (currentGameplayDeck[2].cards.Contains(c))
 			{
-                played.Remove(c);
+                currentGameplayDeck[2].Remove(c);
             }
         }
 	}
@@ -299,11 +348,11 @@ public class GameManager : MonoBehaviour
     }
 
     // add deck to game stacks playable and not(yet)playable
-    public void AddDeck(Deck deck)
+    public void AddDeck(Deck[] gameplayDeck, Deck deck)
 	{
         Debug.Log(deck.deckName);
-        playable.Add(deck.Playable());
-        notPlayable.Add(deck.NotPlayable());
+        gameplayDeck[0].Add(deck.Playable());
+        gameplayDeck[1].Add(deck.NotPlayable());
     }
 
     #region Fonction Usuelles (AddStats, GetSCene, ...)
@@ -330,11 +379,11 @@ public class GameManager : MonoBehaviour
     }
 
 
-    void ConsoleDecks()
+    public void ConsoleDecks()
 	{
-        Debug.Log(playable);
-        Debug.Log(played);
-        Debug.Log(notPlayable);
+        Debug.Log(currentGameplayDeck[0]);
+        Debug.Log(currentGameplayDeck[1]);
+        Debug.Log(currentGameplayDeck[2]);
     }
 
     #endregion

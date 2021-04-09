@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: 004_Reponse3
   m_EditorClassIdentifier: 
   content: "Et si on essayait les l\xE9gumes ?"
+  question: {fileID: 11400000, guid: e3e701cbfea360c4386dd9cca92d7bac, type: 2}
   stats:
     wealth: 0
     community: -2
     ecosystem: 1
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -697,13 +697,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: bankCard
+      value: 
+      objectReference: {fileID: 11400000, guid: 73aacd3b32b802349b7144a013f40768, type: 2}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
       propertyPath: bankDeck
       value: 
       objectReference: {fileID: 11400000, guid: 221fd313931ca08409e672bac8123a4b, type: 2}
     - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: shoolCard
+      value: 
+      objectReference: {fileID: 11400000, guid: 9645dcd1d4f21a34c88917f1b9c85ed8, type: 2}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
       propertyPath: schoolDeck
       value: 
       objectReference: {fileID: 11400000, guid: ba0e7fabd8b179647af91902013e8b14, type: 2}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: fishingCard
+      value: 
+      objectReference: {fileID: 11400000, guid: a1995ecdd7a04684c881bb6c97b4004b, type: 2}
     - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
       propertyPath: fishingDeck
       value: 

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 002_Reponse3
   m_EditorClassIdentifier: 
   content: "Tiens, je t'en rach\xE8te un"
+  question: {fileID: 11400000, guid: f44f35acf0b7c204caa67db5f96711ec, type: 2}
   stats:
     wealth: -1
     community: 1
@@ -20,3 +21,6 @@ MonoBehaviour:
   cardToUnlock:
   - {fileID: 11400000, guid: 83ae7fc223656d84d841f4b8c5c92436, type: 2}
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: 004_Reponse2
   m_EditorClassIdentifier: 
   content: "D\xE9brouille-toi"
+  question: {fileID: 11400000, guid: 26bdd3322fe6f1d49bb5ff214f607ab4, type: 2}
   stats:
     wealth: 0
     community: -1
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 006_Reponse3
   m_EditorClassIdentifier: 
   content: Non, on a tout ce qu'il nous faut
+  question: {fileID: 11400000, guid: ee699f4e62ae1b24fa44875eedfdcf5c, type: 2}
   stats:
     wealth: 0
     community: -1
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 2
