@@ -88,10 +88,14 @@ public class GameManager : MonoBehaviour
     }
     
 
-    private void ResetGame()
+    public void ResetGame()
     {
         // reset stats
         stats = new Stats(20, 20, 20);
+
+        // reset end
+        activatedEnd = null;
+        end = false;
 
         // reset the playable decks
         playable = SetEmptyDeck("playable");
@@ -110,10 +114,11 @@ public class GameManager : MonoBehaviour
 
 	public void Game()
 	{
-		// initialisation
-		// choose character
 
-		Turn();
+        // initialisation
+        // choose character
+
+        Turn();
 	}
 
     public void Turn()
@@ -211,7 +216,6 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
 	{
-        ResetGame();
         GetScene(3);
 	}
 

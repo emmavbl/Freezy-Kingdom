@@ -8,6 +8,8 @@ public class DisplayStats : MonoBehaviour
 
     [SerializeField] GameObject[] statsPosition;
     [SerializeField] GameObject statText;
+    [SerializeField] GameObject plus;
+    [SerializeField] GameObject moins;
 
 
     // Start is called before the first frame update
@@ -39,14 +41,77 @@ public class DisplayStats : MonoBehaviour
 
     public void SetStats(List<Stats> stats)
 	{
-		for (int i = 0; i < stats.Count; i++)
+
+        StartCoroutine(DisplayPoints(stats[0], 0.5f));
+        StartCoroutine(DisplayPoints(stats[1], 2.5f));
+        StartCoroutine(DisplayPoints(stats[2], 4.5f));
+
+    }
+
+    IEnumerator DisplayPoints(Stats stats, float delay)
+	{
+        yield return new WaitForSeconds(delay);
+        Debug.Log(stats.Print());
+
+        GameObject wealth = null;
+        if (stats.wealth > 0)
         {
-            GameObject temp = Instantiate(statText,
-                statsPosition[i].transform.position,
+            wealth = Instantiate(plus,
+                statsPosition[0].transform.position,
                 Quaternion.identity,
                 transform);
-            temp.GetComponentInChildren<Text>().text = stats[i].Print(); ;
-
         }
+        else if (stats.wealth < 0)
+        {
+            wealth = Instantiate(moins,
+                statsPosition[0].transform.position,
+                Quaternion.identity,
+                transform);
+        }
+		if (wealth != null)
+		{
+			wealth.transform.localScale = new Vector3(1, 1, 1) * (1 + ((Mathf.Abs(stats.wealth)-1)*0.5f));
+		}
+
+        GameObject community = null;
+        if (stats.community > 0)
+        {
+            community = Instantiate(plus,
+                statsPosition[1].transform.position,
+                Quaternion.identity,
+                transform);
+        }
+        else if (stats.community < 0)
+        {
+            community = Instantiate(moins,
+                statsPosition[1].transform.position,
+                Quaternion.identity,
+                transform);
+        }
+		if (community != null)
+		{
+			community.transform.localScale = new Vector3(1, 1, 1) * (1 + ((Mathf.Abs(stats.community)-1) * 0.5f));
+		}
+
+        GameObject ecosystem = null;
+        if (stats.ecosystem > 0)
+        {
+            ecosystem = Instantiate(plus,
+                statsPosition[2].transform.position,
+                Quaternion.identity,
+                transform);
+        }
+        else if (stats.ecosystem < 0)
+        {
+            ecosystem = Instantiate(moins,
+                statsPosition[2].transform.position,
+                Quaternion.identity,
+                transform);
+        }
+		if (ecosystem != null)
+		{
+			ecosystem.transform.localScale = new Vector3(1, 1, 1) * ( 1 + ((Mathf.Abs(stats.ecosystem)-1) *0.5f));
+		}
+
     }
 }

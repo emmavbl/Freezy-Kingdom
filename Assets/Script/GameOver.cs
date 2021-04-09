@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
@@ -8,18 +9,15 @@ public class GameOver : MonoBehaviour
     void Start()
     {
         // Animate sprite
-        Invoke("Continue", 2);
+        GetComponentInChildren<Text>().text = FindObjectOfType<GameManager>().activatedEnd.description;
+
+        FindObjectOfType<GameManager>().ResetGame();
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }
-
-    void Continue()
-    {
-        FindObjectOfType<GameManager>().GetScene(0);
     }
 
 }

@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -47.985565}
-  m_SizeDelta: {x: 685.0662, y: 137.1244}
+  m_SizeDelta: {x: 531, y: 198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8942730476675644742
 CanvasRenderer:
@@ -61,15 +61,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 6472f8a62dcb2ee40827aa0f8f5504a1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -97,7 +97,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -107,10 +107,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 354c841a3a42f3e4f91e242cf216182d, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: b3cf67efdd6de8d4cbe095beff4b0722, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 354c841a3a42f3e4f91e242cf216182d, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: 6472f8a62dcb2ee40827aa0f8f5504a1, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -181,8 +181,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -35.042, y: -13.1258}
+  m_AnchoredPosition: {x: -8.109497, y: 0.0000076293945}
+  m_SizeDelta: {x: -151.8188, y: -34.2105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8942730476976678043
 CanvasRenderer:
@@ -225,5 +225,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'lormihrfjbsfdvhjcsdkvbc jhdfvb cjhdfvc sbdfkvn dfnjbv fjb vndkfjnbv df,c
-    bvldfjqbv dsljvb dlfjgbv gfkjb vldjbgfv ldjbfv jsk:v :fjgblsdgljfbv '
+  m_Text: lormihrfjbsfdvhjcsdkvbc jhdfvb cjhdfvc sbdb cjhdfvc sbd

@@ -11,6 +11,8 @@ public class DisplayQuestion : MonoBehaviour
     public GameObject buttonPrefab;
 
     public GameObject[] buttonsPosition;
+    public GameObject characterPosition;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,14 @@ public class DisplayQuestion : MonoBehaviour
         questionText.text = _card.content;
         Debug.Log(card.lifeTime);
 
+        //destroy previous character
+        if (characterPosition.transform.childCount > 0)
+		{
+            var character = characterPosition.transform.GetChild(0);
+            Debug.Log(character.gameObject);
+            Destroy(character.gameObject);
+		}
+
         // destroy previous buttons
         Button[] buttons =  GetComponentsInChildren<Button>();
 		foreach (Button button in buttons)
@@ -42,6 +52,11 @@ public class DisplayQuestion : MonoBehaviour
 
         // give them back !
         AddButtons();
+
+        Instantiate(card.character,
+                characterPosition.transform.position,
+                Quaternion.identity,
+                characterPosition.transform);
 
 	}
 
