@@ -135,11 +135,6 @@ public class GameManager : MonoBehaviour
         // genere le deck de 3 question
         turnDeck = GenerateDayDeck(3);
 
-		foreach (Card item in turnDeck)
-		{
-            Debug.Log(item.cardName);
-		}
-
         DisplayNextCard();
     }
 
@@ -169,10 +164,8 @@ public class GameManager : MonoBehaviour
             // check if end activated by stats
             KeyValuePair<Place, int> statEnd = stats.CheckEnd();
 
-            Debug.Log(statEnd);
             if (statEnd.Value != 0)
 			{
-                Debug.Log("!end");
 				switch (statEnd.Key)
 				{
 					case Place.Fishing:
@@ -224,7 +217,6 @@ public class GameManager : MonoBehaviour
 	{
 		if (turnDeck.Count <= 0)
 		{
-            Debug.Log("end the turn");
             Night();
             return;
 		}
@@ -249,7 +241,6 @@ public class GameManager : MonoBehaviour
 
                     // remove from playable and add to played
                     playable.Remove(c);
-                    c.initLifeTime();
                     played.Add(c);
 			    } 
 			} else
@@ -344,7 +335,6 @@ public class GameManager : MonoBehaviour
         Debug.Log(playable);
         Debug.Log(played);
         Debug.Log(notPlayable);
-        Debug.Log("Turn :" + turn);
     }
 
     #endregion

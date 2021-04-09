@@ -15,13 +15,6 @@ public class Card : ScriptableObject
 
 	public GameObject character;
 
-
-	// init lifetime for the first use
-	public void initLifeTime()
-	{
-		lifeTime = 2;
-	}
-
 	public bool IsEqual(Card c)
 	{
 		return this.GetInstanceID() == c.GetInstanceID();

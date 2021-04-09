@@ -7,6 +7,7 @@ public class Answer : ScriptableObject
 {
 	public string content;
 
+	public Card question; 
 	[SerializeField] public Stats stats;
 	public Card[] cardToUnlock;
 	public End endToUnlock = null;
@@ -14,6 +15,8 @@ public class Answer : ScriptableObject
 	public Deck deckToUnlock;
 
 	public Place placeToUnlock;
+
+	public int lifetimeQuestion = 15;
 
 	public void Action()
 	{
@@ -45,6 +48,8 @@ public class Answer : ScriptableObject
 			GM.end = true;
 			GM.activatedEnd= endToUnlock;
 		}
+
+		question.lifeTime = lifetimeQuestion;
 
 	}
 }

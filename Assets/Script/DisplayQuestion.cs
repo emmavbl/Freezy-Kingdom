@@ -33,7 +33,6 @@ public class DisplayQuestion : MonoBehaviour
         card = _card;
 
         questionText.text = _card.content;
-        Debug.Log(card.lifeTime);
 
         //destroy previous character
         if (characterPosition.transform.childCount > 0)
