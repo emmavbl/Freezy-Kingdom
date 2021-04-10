@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: inondation
   canBePicked: 1
-  lifeTime: 0
+  lifeTime: 5
   content: 'Le village voisin s''est fait inonder, on doit les aider !   '
   answers:
   - {fileID: 11400000, guid: 384a587d576a24743818cb8efb61b960, type: 2}
   - {fileID: 11400000, guid: 0e3f2b011aca41d4a9a429c75c587f81, type: 2}
   - {fileID: 11400000, guid: 790165aa86cb46d4b8cc4006ba967a65, type: 2}
   - {fileID: 11400000, guid: 864494b509cd9e045b1d2c16b6b29732, type: 2}
-  character: {fileID: 0}
+  character: {fileID: 3867882423405244566, guid: 56ba96b7446c08340833e61bfb76ef67, type: 3}

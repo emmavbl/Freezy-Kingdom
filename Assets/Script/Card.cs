@@ -11,6 +11,7 @@ public class Card : ScriptableObject
 	[HideInInspector]
 	public int lifeTime = 0;
 
+	[TextArea(15, 20)]
 	public string content;
 	public Answer[] answers;
 

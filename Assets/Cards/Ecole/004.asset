@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: "\xE0 pied \xE0 l'\xE9cole"
   canBePicked: 1
-  lifeTime: 0
+  lifeTime: 14
   content: "J'en ai marre de marcher tous les jours pour aller chercher mes petits-enfants
     \xE0 l'\xE9cole \xE0 pied, que faire ?"
   answers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: f360dbec350480841884303df0fb6207, type: 2}
+  - {fileID: 11400000, guid: d9412c952ccb5df42bd13bf39bbbd655, type: 2}
+  - {fileID: 11400000, guid: d996a49d015f7da4486b4496e1e35faf, type: 2}
+  - {fileID: 11400000, guid: 3d339abedc319a644b4d9df9d2e5b113, type: 2}
   character: {fileID: 7091007467639817606, guid: 419597a7f3a71a7469f4fcb3064172c4, type: 3}

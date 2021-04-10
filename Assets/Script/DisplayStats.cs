@@ -23,6 +23,14 @@ public class DisplayStats : MonoBehaviour
     {
         
     }
+
+    public void OnClick()
+	{
+        Button button = GetComponentInChildren<Button>();
+        LeanTween.scale(button.gameObject, new Vector3(0, 0, 0), .5f).setEaseInBack();
+        Invoke("EndNigth", 0.5f);
+    }
+
     public void EndNigth()
     {
 
@@ -41,11 +49,10 @@ public class DisplayStats : MonoBehaviour
 
     public void SetStats(List<Stats> stats)
 	{
-
-        StartCoroutine(DisplayPoints(stats[0], 0.5f));
-        StartCoroutine(DisplayPoints(stats[1], 2.5f));
-        StartCoroutine(DisplayPoints(stats[2], 4.5f));
-
+		for (int i = 0; i < stats.Count; i++)
+		{
+            StartCoroutine(DisplayPoints(stats[i], (2*i) + .5f));
+		}
     }
 
     IEnumerator DisplayPoints(Stats stats, float delay)

@@ -21,6 +21,6 @@ MonoBehaviour:
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 11400000, guid: ff04b4cf9fbe391419118c93a85d9167, type: 2}
-  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
-  lifetimeQuestion: 15
+  lifetimeQuestion: 4
+  morningAnswer: 0

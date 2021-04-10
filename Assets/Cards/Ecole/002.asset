@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: parents apprentissage
   canBePicked: 1
-  lifeTime: 0
+  lifeTime: 14
   content: "Les parents veulent savoir ce que l'on apprend \xE0 leurs enfants \xE0
     l'\xE9cole."
   answers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 0cfa397909fffcc45a114846ada84c98, type: 2}
+  - {fileID: 11400000, guid: f95ea821f2de53c45a0445946b791e7e, type: 2}
+  - {fileID: 11400000, guid: 27757457ba51dd14ca2cab4ea2fe93f7, type: 2}
+  - {fileID: 11400000, guid: aca03a494bfe09f4490ceae1823049b7, type: 2}
   character: {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}

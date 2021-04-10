@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Answer", menuName = "Answer")]
 public class Answer : ScriptableObject
 {
+	[TextArea(15, 20)] 
 	public string content;
 
 	public Card question; 
@@ -24,30 +25,10 @@ public class Answer : ScriptableObject
 
 		// store stats in game manager
 		GameManager GM = FindObjectOfType<GameManager>();
-		GM.AddStats(stats);
+		if(morningAnswer == 0) GM.AddStats(stats);
 
-		if (morningAnswer == 0)
-		{
-			// put card as playable (notplayable/played -> playable)
-			GM.FindAndPutInPlayable(cardToUnlock);
 
-			// add place to Game Manager
-			if (placeToUnlock != Place.Castle)
-			{
-				GM.AddPlace(placeToUnlock);
-			}
-
-			// set end in game manager
-			if (endToUnlock != null)
-			{
-				Debug.Log("End triggered");
-				GM.end = true;
-				GM.activatedEnd = endToUnlock;
-			}
-
-			question.lifeTime = lifetimeQuestion;
-		}
-		else if (morningAnswer == 1)
+		if (morningAnswer == 1) // special morning question is answered yes 
 		{
 			switch (placeToUnlock)
 			{
@@ -67,13 +48,36 @@ public class Answer : ScriptableObject
 					GameManager.currentGameplayDeck = GameManager.gameplayDeck;
 					break;
 			}
+
 			// check if some played.cards are replayable 
 			GM.CheckReusableCard();
 			GM.ConsoleDecks();
 			// genere le deck de 3 question
 			GameManager.turnDeck = GM.GenerateDayDeck(3);
 
-			GM.DisplayNextCard();
+		} else // if not special question unlock what is to unlock
+		{
+			//set gameplay deck to normal gameplay deck
+			//GameManager.currentGameplayDeck = GameManager.gameplayDeck;
+
+			// put card as playable (notplayable/played -> playable)
+			GM.FindAndPutInPlayable(cardToUnlock);
+
+			// add place to Game Manager
+			if (placeToUnlock != Place.Castle)
+			{
+				GM.AddPlace(placeToUnlock);
+			}
+
+			// set end in game manager
+			if (endToUnlock != null)
+			{
+				Debug.Log("End triggered");
+				GM.end = true;
+				GM.activatedEnd = endToUnlock;
+			}
+
+			question.lifeTime = lifetimeQuestion;
 		}
 
 	}

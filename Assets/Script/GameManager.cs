@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
     public static Deck[] currentGameplayDeck = new Deck[3]; // 0: playable, 1: notplayable, 2: played
 
     // card morning ask for going in place ?
-    public Card shoolCard;
+    public Card schoolCard;
     public Card bankCard;
     public Card fishingCard;
 
@@ -97,7 +97,6 @@ public class GameManager : MonoBehaviour
         bankGameplayDeck = new Deck[3] { SetEmptyDeck("playable"), SetEmptyDeck("notplayable"), SetEmptyDeck("played") };
 
 
-        placesState.Add(Place.Castle, true);
         placesState.Add(Place.Bank, false);
         placesState.Add(Place.Fishing, false);
         placesState.Add(Place.School, false);
@@ -160,7 +159,18 @@ public class GameManager : MonoBehaviour
 			}
 		}
 
-        Place place = accessiblePlace.ElementAt<Place>(UnityEngine.Random.Range(0, accessiblePlace.Count));
+        currentGameplayDeck = gameplayDeck;
+        // check if some played.cards are replayable 
+        CheckReusableCard();
+        ConsoleDecks();
+        // genere le deck de 3 question
+        turnDeck = GenerateDayDeck(3);
+        Place place = Place.Castle;
+
+        if (UnityEngine.Random.Range(0f, 1f) >= 0.5 && accessiblePlace.Count > 0)
+		{
+            place = accessiblePlace.ElementAt<Place>(UnityEngine.Random.Range(0, accessiblePlace.Count));
+		}
         Debug.Log("Choose place : " + place);
 		switch (place)
 		{
@@ -168,19 +178,12 @@ public class GameManager : MonoBehaviour
                 FindObjectOfType<DisplayQuestion>().UpdateToCard(fishingCard);
                 break;
 			case Place.School:
-                FindObjectOfType<DisplayQuestion>().UpdateToCard(shoolCard);
+                FindObjectOfType<DisplayQuestion>().UpdateToCard(schoolCard);
                 break;
 			case Place.Bank:
                 FindObjectOfType<DisplayQuestion>().UpdateToCard(bankCard);
                 break;
 			default:
-                currentGameplayDeck = gameplayDeck;
-                // check if some played.cards are replayable 
-                CheckReusableCard();
-                ConsoleDecks();
-                // genere le deck de 3 question
-                turnDeck = GenerateDayDeck(3);
-
                 DisplayNextCard();
                 break;
 		}
@@ -195,6 +198,9 @@ public class GameManager : MonoBehaviour
             Quaternion.identity,
             FindObjectOfType<Canvas>().transform);
 
+        temp_screen.GetComponentInChildren<Button>().transform.localScale = new Vector3(0, 0, 0);
+        Button button = temp_screen.GetComponentInChildren<Button>();
+        LeanTween.scale(button.gameObject, new Vector3(1, 1, 1), .5f).setEaseOutBack().setDelay(6.5f);
         temp_screen.GetComponent<DisplayStats>().SetStats(turnStats);
 
 		// Add turnStat to stats
@@ -302,6 +308,7 @@ public class GameManager : MonoBehaviour
 
     public void CheckReusableCard()
 	{
+        ConsoleDecks();
         List<Card> toRemove =  new List<Card>();
 		foreach (Card card in currentGameplayDeck[2].cards)
 		{
@@ -311,7 +318,7 @@ public class GameManager : MonoBehaviour
                 toRemove.Add(card);
 				if (card.canBePicked)
 				{
-                    currentGameplayDeck[2].Add(card);
+                    currentGameplayDeck[0].Add(card);
 				}
 				else
 				{

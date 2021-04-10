@@ -6,6 +6,7 @@ using UnityEngine;
 public class End : ScriptableObject
 {
 	public string endName;
+	[TextArea(15, 20)]
 	public string description;
 	public int sceneId;
 	
