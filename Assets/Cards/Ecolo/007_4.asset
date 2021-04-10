@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 007_4
   m_EditorClassIdentifier: 
-  content: "Cultivez plus dans les champs ! Naturellement, le peuple mangera moins
-    de poisson et cela fera du bien \xE0 notre \xE9conomie."
+  content: Cultivez plus dans les champs ! Cela diversifiera notre alimentation.
   question: {fileID: 11400000, guid: ef792c4691accf34e9a87b5ec5e374d0, type: 2}
   stats:
     wealth: 2

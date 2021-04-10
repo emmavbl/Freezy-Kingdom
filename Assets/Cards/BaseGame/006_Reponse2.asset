@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 006_Reponse2
   m_EditorClassIdentifier: 
-  content: "Oui ! Creusons un \xE9norme trou dans la banquise"
+  content: "Oui ! Creusons un \xE9norme trou dans la banquise."
   question: {fileID: 11400000, guid: ee699f4e62ae1b24fa44875eedfdcf5c, type: 2}
   stats:
     wealth: 1

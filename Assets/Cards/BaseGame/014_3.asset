@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 014_3
   m_EditorClassIdentifier: 
-  content: "Je ne pense pas que ce soit si grave. Demandez quand m\xEAme au peuple
-    de faire quelques gestes \xE9cologiques, \xE7a ne co\xFBte rien !"
+  content: "Demandons au peuple de faire quelques gestes \xE9cologiques !"
   question: {fileID: 11400000, guid: 900a353467508eb44a246780be013979, type: 2}
   stats:
     wealth: -1

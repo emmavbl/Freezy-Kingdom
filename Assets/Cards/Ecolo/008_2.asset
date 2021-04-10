@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 008_2
   m_EditorClassIdentifier: 
-  content: "D'accord, mais je retirerai des jours de vacances \xE0 d'autres agriculteurices,
-    histoire de ne pas perdre de temps, ni d'argent !"
+  content: "D'accord, mais je retirerai des jours de vacances aux autres : pas de
+    temps ou d'argent \xE0 perdre !"
   question: {fileID: 11400000, guid: 68f5c3aa54eec3846b93fdb76e446700, type: 2}
   stats:
     wealth: 1

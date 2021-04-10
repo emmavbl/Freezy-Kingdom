@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: S_poissons
   canBePicked: 1
-  lifeTime: 5
+  lifeTime: 4998
   content: "Le peuple d\xE9sire que l'on construise un lieu de p\xEAche et de r\xE9colte
-    pour se nourrir convenablement   "
+    pour se nourrir convenablement."
   answers:
   - {fileID: 11400000, guid: d25559b1d7155da46a06ca68ae7966bf, type: 2}
   - {fileID: 11400000, guid: c8da7b884a0ff01448411dee6118117e, type: 2}
   - {fileID: 11400000, guid: f5f35df83c54d6343a2cb4738bdc3132, type: 2}
   - {fileID: 11400000, guid: a7d854f656e77b94fa94c923dd200133, type: 2}
-  character: {fileID: 7611522070233587872, guid: 4a3476d19f65f5b409a6944b783230f2, type: 3}
+  character: {fileID: 4608362335081153297, guid: 2353d616b8137424fb7cc3a53e88b23d, type: 3}

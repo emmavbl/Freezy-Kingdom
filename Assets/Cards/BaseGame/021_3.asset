@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 021_3
   m_EditorClassIdentifier: 
-  content: "Montons un club de culture japonaise o\xF9 les gens pourraient faire
-    des recommandations et te lire ceux qui t'int\xE9ressent le plus !"
+  content: "Montons un club de culture japonaise o\xF9 l'entraide et la bienveillance
+    sera de mise !"
   question: {fileID: 11400000, guid: c4c2db26dca605640a76da39de98e457, type: 2}
   stats:
     wealth: 0

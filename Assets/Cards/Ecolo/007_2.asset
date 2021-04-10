@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 007_2
   m_EditorClassIdentifier: 
-  content: "Arr\xEAtons imm\xE9diatement la p\xEAche jusqu'\xE0 nouvel ordre. Laissons
-    la nature reprendre ses droits."
+  content: "Arr\xEAtons imm\xE9diatement la p\xEAche jusqu'\xE0 ce que l'\xE9cosyst\xE8me
+    soit r\xE9tabli."
   question: {fileID: 11400000, guid: ef792c4691accf34e9a87b5ec5e374d0, type: 2}
   stats:
     wealth: -3

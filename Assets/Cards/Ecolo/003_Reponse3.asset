@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 003_Reponse3
   m_EditorClassIdentifier: 
-  content: "Mangez-le grill\xE9"
+  content: "Mange-le grill\xE9."
   question: {fileID: 11400000, guid: ac4d2eb1679dcb94f885c54b2829e1c7, type: 2}
   stats:
     wealth: 0

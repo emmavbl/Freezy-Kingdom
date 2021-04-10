@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_Wealth+
   m_EditorClassIdentifier: 
   endName: Wealth ++
-  description: "Vous avez trop d'argent. Vous vous exilez sur votre \xEEle priv\xE9
+  description: "Vous avez trop d'argent. Vous vous exilez sur votre \xEEle priv\xE9e
     et abandonnez vos amis pingouins sur leur gla\xE7on."
   sceneId: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: End_Ecosystem+
   m_EditorClassIdentifier: 
   endName: Ecosystem ++
-  description: "Vous avez r\xE9ussit \xE0 inverser le rechauffement climatique et
-    enclancher une \xE8re glaci\xE8re. Heureusement que nous sommes des pingouins
+  description: "Vous avez r\xE9ussi \xE0 inverser le rechauffement climatique et
+    enclencher une \xE8re glaci\xE8re. Heureusement que nous sommes des pingouins
     ! "
   sceneId: 0

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 008_3
   m_EditorClassIdentifier: 
-  content: "Mais enfin, vous r\xE9alisez ce que vous demandez ? Mais je vous comprends,
-    prenez donc quelques jours de cong\xE9s si \xE7a peut vous aider \xE0 vous ressourcer."
+  content: "Jje vous comprends, prenez donc quelques jours de cong\xE9s si \xE7a
+    peut vous aider \xE0 vous ressourcer."
   question: {fileID: 11400000, guid: 68f5c3aa54eec3846b93fdb76e446700, type: 2}
   stats:
     wealth: -1

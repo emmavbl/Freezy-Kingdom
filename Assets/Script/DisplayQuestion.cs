@@ -34,6 +34,7 @@ public class DisplayQuestion : MonoBehaviour
 
         questionText.text = _card.content;
 
+
         //destroy previous character
         if (characterPosition.transform.childCount > 0)
 		{

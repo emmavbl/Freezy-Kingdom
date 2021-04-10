@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 007_Reponse4
   m_EditorClassIdentifier: 
-  content: Non, la flemme
+  content: Non, la flemme.
   question: {fileID: 11400000, guid: 4a078f7bddfee9a4781ac882843f5dc1, type: 2}
   stats:
     wealth: 0

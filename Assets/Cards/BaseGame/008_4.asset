@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 008_4
   m_EditorClassIdentifier: 
   content: Hors de question !
-  question: {fileID: 0}
+  question: {fileID: 11400000, guid: 58b4689535207974db30ac69265a60d3, type: 2}
   stats:
     wealth: 0
     community: -3

@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 012_1
   m_EditorClassIdentifier: 
-  content: "Quelle horreur ! Restons pacifiques, il ne faut pas riposter. Montrons
-    \xE0 ce peuple \xE9tranger que nous ne sommes pas si mauvais."
+  content: Quelle horreur ! Restons pacifiques, il ne faut pas riposter.
   question: {fileID: 11400000, guid: 7404b4cbaafb39d4ab12474845bdec21, type: 2}
   stats:
     wealth: -1

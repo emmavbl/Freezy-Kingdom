@@ -8,6 +8,7 @@ public class ButtonAnswer : MonoBehaviour
 
     public void onClick()
 	{
+		FindObjectOfType<AudioManager>().Play("Q1");
 		answer.Action();
 		FindObjectOfType<GameManager>().DisplayNextCard();
 	}

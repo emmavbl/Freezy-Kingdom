@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 019_4
   m_EditorClassIdentifier: 
-  content: "Non finalement je pr\xE9f\xE8re te payer quelqu'un qui lavera tes v\xEAtements
+  content: "Non finalement je pr\xE9f\xE8re payer quelqu'un qui lavera tes v\xEAtements
     pour toi..."
   question: {fileID: 11400000, guid: 0444cf6ad4fb1cb41a9038a670db8e41, type: 2}
   stats:
