@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 010
   m_EditorClassIdentifier: 
   cardName: "hi\xE9rarchie"
-  canBePicked: 0
+  canBePicked: 1
   lifeTime: 0
   content: "On en a marre du roi, \xE0 bas la hi\xE9rarchie ! "
   answers:

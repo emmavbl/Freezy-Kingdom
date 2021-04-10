@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
-  m_Name: 010_2
+  m_Name: 025_3
   m_EditorClassIdentifier: 
-  content: "Oh, et bien... Je suppose que toutes les bonnes choses ont une fin...
-    Je vais m'exiler. Adieu, mon petit peuple ador\xE9..."
-  question: {fileID: 11400000, guid: e87b699a86bc1d742a5cb2bf29610da6, type: 2}
+  content: "Je pense \xEAtre suffisament mature pour g\xE9rer cette affaire : ce
+    virus n'est pas tr\xE8s dangereux."
+  question: {fileID: 11400000, guid: 657b72f2fad25ec40a8931056f7fb38b, type: 2}
   stats:
     wealth: 0
-    community: 0
-    ecosystem: 0
+    community: -1
+    ecosystem: -2
   cardToUnlock: []
-  endToUnlock: {fileID: 11400000, guid: f9378b0ed65d9a74ab0d6802537c48d2, type: 2}
+  endToUnlock: {fileID: 0}
   placeToUnlock: 0
-  lifetimeQuestion: 4
+  lifetimeQuestion: 15
   morningAnswer: 0
