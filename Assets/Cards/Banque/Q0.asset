@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: bank_coffre
   canBePicked: 1
+  lifeTime: 0
   content: 'On vient de retrouver un coffre rempli d''argent !   '
   answers:
   - {fileID: 11400000, guid: 771b84c7b63523e4a98bb00f7d721f65, type: 2}
   - {fileID: 11400000, guid: e5efb4fc8f3a272499db2b07d8a6f957, type: 2}
   - {fileID: 11400000, guid: 4be718753752cf14d8085f1c62303bfd, type: 2}
   - {fileID: 11400000, guid: e2d6b33198773d44499e265ebe579654, type: 2}
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 000_Reponse2
   m_EditorClassIdentifier: 
   content: "Importons des contr\xE9es voisines"
+  question: {fileID: 11400000, guid: 3009b2655efce104dbda268b198b0679, type: 2}
   stats:
     wealth: 0
     community: 0
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

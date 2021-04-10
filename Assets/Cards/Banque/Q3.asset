@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Q3
   m_EditorClassIdentifier: 
   cardName: bank_taxes_use
-  canBePicked: 0
+  canBePicked: 1
+  lifeTime: 0
   content: "Comment est-ce que l'on devrait utiliser l'argent des imp\xF4ts ?   "
   answers:
   - {fileID: 11400000, guid: 8dc0cd7e89976e44b8c5458fd1adfef7, type: 2}
   - {fileID: 11400000, guid: 6f3f0531db89f2e4f8655870a2fd887f, type: 2}
   - {fileID: 11400000, guid: e9641df1d6710fb46aa877ccfbffe963, type: 2}
   - {fileID: 11400000, guid: 4e2671bff61850e49bec1ad460e990cb, type: 2}
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

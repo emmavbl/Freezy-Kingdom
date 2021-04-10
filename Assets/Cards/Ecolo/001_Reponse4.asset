@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: 001_Reponse4
   m_EditorClassIdentifier: 
   content: "Je vais vous obliger \xE0 partager"
+  question: {fileID: 11400000, guid: d7cfd9ad47b617740871d2a4cf98e003, type: 2}
   stats:
     wealth: 0
     community: 0
     ecosystem: 0
   cardToUnlock: []
   endToUnlock: {fileID: 11400000, guid: f8fee7f78a60bc04a8f684e6040d26a2, type: 2}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: bank_deficit
   canBePicked: 1
+  lifeTime: 0
   content: "On est en d\xE9ficit !   "
   answers:
   - {fileID: 11400000, guid: 685aa7362fecdcc49be417a9c14ca727, type: 2}
   - {fileID: 11400000, guid: c2dde65c4d7ebe24f804f822e801d386, type: 2}
   - {fileID: 11400000, guid: 78d43296878eae1409cd1c942ab21189, type: 2}
   - {fileID: 11400000, guid: 6e166c0575c7fd6408543c327298edb5, type: 2}
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

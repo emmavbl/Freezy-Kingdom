@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: 000_Reponse3
   m_EditorClassIdentifier: 
   content: "Faire attention \xE0 l'environnement"
+  question: {fileID: 11400000, guid: 87fdd3aab4be8204c8cf1aaa63a6b03d, type: 2}
   stats:
     wealth: -1
     community: -1
     ecosystem: 2
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

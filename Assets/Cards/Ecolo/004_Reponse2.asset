@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 004_Reponse2
   m_EditorClassIdentifier: 
   content: "D\xE9veloppons une gamme de bo\xEEte de conserves"
+  question: {fileID: 11400000, guid: e3e701cbfea360c4386dd9cca92d7bac, type: 2}
   stats:
     wealth: 0
     community: 1
@@ -21,3 +22,4 @@ MonoBehaviour:
   endToUnlock: {fileID: 0}
   deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

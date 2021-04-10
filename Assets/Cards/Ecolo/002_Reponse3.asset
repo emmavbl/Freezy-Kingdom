@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: 002_Reponse3
   m_EditorClassIdentifier: 
   content: "Remettons les b\xE9b\xE9s poissons \xE0 l'eau"
+  question: {fileID: 11400000, guid: f50890567604c954d8a0e134fceaac08, type: 2}
   stats:
     wealth: 0
     community: 0
     ecosystem: 2
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

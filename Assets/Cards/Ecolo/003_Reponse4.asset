@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: 003_Reponse4
   m_EditorClassIdentifier: 
   content: "Devenez v\xE9g\xE9tarien"
+  question: {fileID: 11400000, guid: ac4d2eb1679dcb94f885c54b2829e1c7, type: 2}
   stats:
     wealth: -1
     community: 0
     ecosystem: 2
   cardToUnlock: []
   endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
   placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: qu'enseigner?
   canBePicked: 1
+  lifeTime: 0
   content: "Qu'est-ce qu'on devrait enseigner \xE0 l'\xE9cole ?   "
   answers:
   - {fileID: 11400000, guid: 04eacb3102bc4eb4b962e17675d6cc4c, type: 2}
   - {fileID: 11400000, guid: 9ee703b2ead5dd64da8ee8f529c27014, type: 2}
   - {fileID: 11400000, guid: 04f5a7e5c4c9b914c8ec460dc7a00a5e, type: 2}
   - {fileID: 11400000, guid: 3375b17e2b715534898639125cd0c92e, type: 2}
+  character: {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}
