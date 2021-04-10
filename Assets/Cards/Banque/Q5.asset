@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: bank_robber_found
   canBePicked: 0
+  lifeTime: 0
   content: "Nous avons retrouv\xE9 le voleur ! Il dit avoir besoin d'argent pour
     aller sur la lune.   "
   answers:
@@ -21,3 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9d76a75d2d045344eaeb42ca9be31219, type: 2}
   - {fileID: 11400000, guid: 0362708fdfcc6c6498675af2f044d954, type: 2}
   - {fileID: 11400000, guid: 17096a563affc13439f7d625a1f6466b, type: 2}
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

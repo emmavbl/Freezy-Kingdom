@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: bank_moon
   canBePicked: 0
+  lifeTime: 0
   content: "La mission pour la lune est pr\xEAte, envoyons les premiers pingouins
     sur la lune !   "
   answers:
@@ -21,3 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7b8c2d93e7d33fa4e8ca14120141de8a, type: 2}
   - {fileID: 11400000, guid: 9f438923996a284488ccdc7d27ea9a41, type: 2}
   - {fileID: 11400000, guid: 4204db467bf19ec439b62f0ebdb08937, type: 2}
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

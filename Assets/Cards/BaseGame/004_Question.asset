@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: jacuzzi
   canBePicked: 1
-  lifeTime: 6
+  lifeTime: 0
   content: 'Dans mon igloo, on partage tout, y compris les frais. Mais moi je veux
     vraiment un jacuzzi et pas les autres donc personne ne veut payer avec moi.   '
   answers:
@@ -22,4 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bb966581f00d1b648b6cd8519795472b, type: 2}
   - {fileID: 11400000, guid: 18025518295631847b8b876e4f7f8d9e, type: 2}
   - {fileID: 11400000, guid: b0f1e3f113d5add40828652dde9fdd2c, type: 2}
-  character: {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}
+  character: {fileID: 2906467737086859071, guid: e1626c8a338e06340a5d940d0160752c, type: 3}

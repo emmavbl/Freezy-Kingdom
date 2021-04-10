@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
+  m_Name: 012
+  m_EditorClassIdentifier: 
+  cardName: guerre
+  canBePicked: 1
+  lifeTime: 0
+  content: "Un autre peuple nous d\xE9clare la guerre, que fait-on ?"
+  answers:
+  - {fileID: 11400000, guid: 1829dc9c7fb6d1c40a8b342657ea3a34, type: 2}
+  - {fileID: 11400000, guid: c5a052be74cdea04d97343d741e4c358, type: 2}
+  - {fileID: 11400000, guid: 6e3a41aeb3f518d4698c088fa717b697, type: 2}
+  - {fileID: 11400000, guid: 93d8ac0fdcc536a44a576970ebc0c02d, type: 2}
+  character: {fileID: 2906467737086859071, guid: e1626c8a338e06340a5d940d0160752c, type: 3}

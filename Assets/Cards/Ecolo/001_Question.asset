@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: reserve
   canBePicked: 0
+  lifeTime: 0
   content: "Mon voisin avait fait des r\xE9serves donc il mange \xE0 sa faim sans
     vouloir partager alors que j'ai le ventre vide   "
   answers:
@@ -21,3 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1e29063a928cfb54581dd5a8370357f8, type: 2}
   - {fileID: 11400000, guid: c37d93cf7f594354e87e8720ca141599, type: 2}
   - {fileID: 11400000, guid: 213a86865e5c3f24f8e78406edaad340, type: 2}
+  character: {fileID: 3867882423405244566, guid: 56ba96b7446c08340833e61bfb76ef67, type: 3}

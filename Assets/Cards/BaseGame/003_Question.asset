@@ -15,11 +15,11 @@ MonoBehaviour:
   cardName: M. Morse 3
   canBePicked: 0
   lifeTime: 2
-  content: "M. Morse passe le chasse-neige pendant mon cours de fl\xFBte \xE0 bec
-    et \xE7a me d\xE9range   "
+  content: "Morse passe le chasse-neige pendant mon cours de fl\xFBte \xE0 bec et
+    \xE7a me d\xE9range   "
   answers:
   - {fileID: 11400000, guid: dc6e20159d1d04c4daceb8558e99324d, type: 2}
   - {fileID: 11400000, guid: 6d89952f539a08b4db9ca9a58786ea0b, type: 2}
   - {fileID: 11400000, guid: 9fe75021abbe37d4ca89816a97451033, type: 2}
   - {fileID: 11400000, guid: 505e3c956266c0942b0b6d68cf2b852f, type: 2}
-  character: {fileID: 2906467737086859071, guid: e1626c8a338e06340a5d940d0160752c, type: 3}
+  character: {fileID: 3867882423405244566, guid: 56ba96b7446c08340833e61bfb76ef67, type: 3}

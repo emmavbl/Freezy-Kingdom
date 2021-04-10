@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8723c2d225b8a0e4994ae656ebb0d810, type: 3}
+  m_Name: 002
+  m_EditorClassIdentifier: 
+  cardName: parents apprentissage
+  canBePicked: 1
+  lifeTime: 0
+  content: "Les parents veulent savoir ce que l'on apprend \xE0 leurs enfants \xE0
+    l'\xE9cole."
+  answers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  character: {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}

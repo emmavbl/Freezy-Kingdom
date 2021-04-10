@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: famine
   canBePicked: 1
+  lifeTime: 0
   content: "Le peuple ne mange pas \xE0 sa faim   "
   answers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 5e45ebe4cde8f4f42b7e381dd0618043, type: 2}
+  - {fileID: 11400000, guid: 9610fabea2f589047ae31687c7da9927, type: 2}
+  - {fileID: 11400000, guid: bf8dd1296c1cd6047b4121f934f12e06, type: 2}
+  - {fileID: 11400000, guid: 1fa17c7c39fee5d4eb5677ddb3082131, type: 2}
+  character: {fileID: 7611522070233587872, guid: 4a3476d19f65f5b409a6944b783230f2, type: 3}

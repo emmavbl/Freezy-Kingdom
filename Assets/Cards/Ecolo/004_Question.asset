@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: diversification
   canBePicked: 1
+  lifeTime: 0
   content: 'Nous souhaitons diversifier la production de nourriture   '
   answers:
   - {fileID: 11400000, guid: 99a7b74fb4309c14f9603b3d2b3fa764, type: 2}
   - {fileID: 11400000, guid: b0b664503728fb24aa2d3927a174898b, type: 2}
   - {fileID: 11400000, guid: 622e1b10132990c42af982b309bb3974, type: 2}
   - {fileID: 11400000, guid: 741c8743bbc28184a8140674fde85720, type: 2}
+  character: {fileID: 7611522070233587872, guid: 4a3476d19f65f5b409a6944b783230f2, type: 3}

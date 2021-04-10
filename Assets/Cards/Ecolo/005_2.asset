@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
+  m_Name: 005_2
+  m_EditorClassIdentifier: 
+  content: "C'est vrai... Arr\xEAtons de suite la consommation et allons nous excuser
+    envers leur peuple."
+  question: {fileID: 11400000, guid: e705673bfe93e6f4aa1a621b191383ac, type: 2}
+  stats:
+    wealth: -1
+    community: 3
+    ecosystem: 3
+  cardToUnlock: []
+  endToUnlock: {fileID: 0}
+  deckToUnlock: {fileID: 0}
+  placeToUnlock: 0
+  lifetimeQuestion: 15

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: bank_spatial_expansive
   canBePicked: 0
+  lifeTime: 0
   content: "Votre investissement dans les missions spatiales coute cher et ne plait
     pas \xE0 tout le monde   "
   answers:
@@ -21,3 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7e033c6a42e650f49919823d8558845c, type: 2}
   - {fileID: 11400000, guid: 03a378ac6bc4a1f45a83484d2795350b, type: 2}
   - {fileID: 11400000, guid: 6c662c7d8c40c914994c381b37177aab, type: 2}
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

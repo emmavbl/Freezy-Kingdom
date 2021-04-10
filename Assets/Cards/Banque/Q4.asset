@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: bank_robbed
   canBePicked: 1
+  lifeTime: 0
   content: 'La banque s''est fait cambrioler, que devons-nous faire ?   '
   answers:
   - {fileID: 11400000, guid: 770275684168ba94d80b05284f5934f4, type: 2}
   - {fileID: 11400000, guid: 5322d10be126ac4449a656b0bcb80e3c, type: 2}
   - {fileID: 11400000, guid: 6452ef7f894aebd458d56868b8026c20, type: 2}
   - {fileID: 11400000, guid: bbbefe26918a36c42848017941ef7f1e, type: 2}
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}
