@@ -19,4 +19,4 @@ MonoBehaviour:
   answers:
   - {fileID: 11400000, guid: 31c963bac5f03c14b9fe80067a2bd7b4, type: 2}
   - {fileID: 11400000, guid: 5db45761110bdfe4883b53d9f56a5a36, type: 2}
-  character: {fileID: 7611522070233587872, guid: 4a3476d19f65f5b409a6944b783230f2, type: 3}
+  character: {fileID: 4608362335081153297, guid: 2353d616b8137424fb7cc3a53e88b23d, type: 3}

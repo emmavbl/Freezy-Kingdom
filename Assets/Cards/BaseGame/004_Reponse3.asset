@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 004_Reponse3
   m_EditorClassIdentifier: 
-  content: L'igloo voisin veut un jacuzzi, vous pourriez partager
+  content: L'igloo voisin veut un jacuzzi, vous pourriez partager.
   question: {fileID: 11400000, guid: 26bdd3322fe6f1d49bb5ff214f607ab4, type: 2}
   stats:
     wealth: 0

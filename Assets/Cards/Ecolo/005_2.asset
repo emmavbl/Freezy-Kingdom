@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 005_2
   m_EditorClassIdentifier: 
-  content: "C'est vrai... Arr\xEAtons de suite la consommation et allons nous excuser
-    envers leur peuple."
+  content: "C'est vrai... Arr\xEAtons d'en consommer et allons nous excuser envers
+    leur peuple."
   question: {fileID: 11400000, guid: e705673bfe93e6f4aa1a621b191383ac, type: 2}
   stats:
     wealth: -1

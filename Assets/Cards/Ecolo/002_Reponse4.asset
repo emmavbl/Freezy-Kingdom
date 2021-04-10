@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 002_Reponse4
   m_EditorClassIdentifier: 
-  content: "Faisons des r\xE9serves"
+  content: "Faisons des r\xE9serves."
   question: {fileID: 11400000, guid: f50890567604c954d8a0e134fceaac08, type: 2}
   stats:
     wealth: 1

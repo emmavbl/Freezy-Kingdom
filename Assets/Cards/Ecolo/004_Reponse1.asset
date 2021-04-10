@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 004_Reponse1
   m_EditorClassIdentifier: 
-  content: "Plantons des arbres \xE0 poissons pan\xE9s"
+  content: "Plantons des arbres \xE0 poissons pan\xE9s."
   question: {fileID: 11400000, guid: e3e701cbfea360c4386dd9cca92d7bac, type: 2}
   stats:
     wealth: -2

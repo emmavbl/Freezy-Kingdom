@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_MMorse
   m_EditorClassIdentifier: 
   endName: M. Morse
-  description: "M. Morse passe le chasse-neige la nuit, tout le monde est fatigu\xE9
-    et vous en veut"
+  description: "M. Morse passe maintenant son chasse-neige la nuit. Personne n'arrive
+    \xE0 dormir et tout le monde vous en veut."
   sceneId: 0

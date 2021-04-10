@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_moon_accident
   m_EditorClassIdentifier: 
   endName: moon_accident
-  description: "Un accident se produit lors du decollage de la fus\xE9e et l'on vous
-    ecarte du pouvoir"
+  description: "Un accident se produit lors du d\xE9collage de la fus\xE9e et l'on
+    vous \xE9carte du pouvoir, dommage."
   sceneId: 0

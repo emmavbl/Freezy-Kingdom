@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 014_1
   m_EditorClassIdentifier: 
   content: Ce n'est pas vrai ! Si la banquise fondait, je pourrais le voir de mes
-    propres yeux, et pourtant je ne suis pas aveugle ! Faites moi confiance, il ne
-    se passera rien de grave.
+    propres yeux.
   question: {fileID: 11400000, guid: 900a353467508eb44a246780be013979, type: 2}
   stats:
     wealth: 2

@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 015_3
   m_EditorClassIdentifier: 
-  content: "D'accord, mais je voudrais garder une petite partie de la somme en \xE9change
-    de cette autorisation."
+  content: "D'accord, mais je pr\xE9leverai une petite partie de la somme."
   question: {fileID: 11400000, guid: ba74ea87bc166604292afde60b240d2f, type: 2}
   stats:
     wealth: 2

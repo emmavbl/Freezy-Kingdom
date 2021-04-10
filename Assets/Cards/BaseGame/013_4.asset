@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 013_4
   m_EditorClassIdentifier: 
-  content: "Bah voyons ! Retournez chez vous, je ne veux plus en entendre parler.
-    Si l'un.e d'entre vous d\xE9sob\xE9it, il ira directement en prison, sans passer
-    par la case d\xE9part !"
+  content: Bah voyons ! Retournez chez vous, je ne veux plus en entendre parler.
   question: {fileID: 11400000, guid: 45b2cdf1770115e4896b617ce52ee7b2, type: 2}
   stats:
     wealth: 1

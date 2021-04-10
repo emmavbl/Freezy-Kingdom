@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: S_school
   canBePicked: 1
-  lifeTime: 6
-  content: "Le peuple demande la construction d'une \xE9cole   "
+  lifeTime: 4999
+  content: "Le peuple demande la construction d'une \xE9cole."
   answers:
   - {fileID: 11400000, guid: 4f49c7423989d4f4a96c44211f0984e1, type: 2}
   - {fileID: 11400000, guid: 3d48738c41beed244a98756df61193dc, type: 2}

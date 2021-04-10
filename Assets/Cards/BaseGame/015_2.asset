@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 015_2
   m_EditorClassIdentifier: 
-  content: "Acheter, c'est peut-\xEAtre un peu \xE9go\xEFste ? Louez le terrain,
-    \xE7a je ne vous l'interdis pas."
+  content: "Acheter, c'est peut-\xEAtre un peu \xE9go\xEFste ? Louez le terrain plut\xF4t."
   question: {fileID: 11400000, guid: ba74ea87bc166604292afde60b240d2f, type: 2}
   stats:
     wealth: 1

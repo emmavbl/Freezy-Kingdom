@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 017_2
   m_EditorClassIdentifier: 
-  content: "J'ai une amie bricoleuse, elle vous r\xE9parera votre appareil \xE0 un
+  content: "J'ai une amie bricoleuse, elle te r\xE9parera votre appareil \xE0 un
     prix r\xE9duit !"
   question: {fileID: 11400000, guid: ecbbdfe4c4fc0dc4b9aaca218f3f31bb, type: 2}
   stats:

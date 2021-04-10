@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 000_Reponse1
   m_EditorClassIdentifier: 
-  content: Intensifions la production de nourriture
+  content: Intensifions la production de nourriture.
   question: {fileID: 11400000, guid: 3009b2655efce104dbda268b198b0679, type: 2}
   stats:
     wealth: 0

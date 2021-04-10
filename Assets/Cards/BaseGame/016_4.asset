@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 016_4
   m_EditorClassIdentifier: 
-  content: "Oh ! J'ai un rendez-vous tr\xE8s important dans deux minutes, je crois
-    que je vais vous demander de quitter ces lieux."
+  content: "Oh ! J'ai un rendez-vous tr\xE8s important dans deux minutes, quitte
+    ces lieux je te prie."
   question: {fileID: 11400000, guid: 6cc9fb8f96a431248a377b0bc66e0837, type: 2}
   stats:
     wealth: 3

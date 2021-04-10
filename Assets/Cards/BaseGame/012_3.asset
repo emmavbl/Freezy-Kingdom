@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 012_3
   m_EditorClassIdentifier: 
   content: Il faut leur proposer une alliance. Nous pouvons tout partager avec ce
-    peuple, s'il le faut, tant que ce sera la paix.
+    peuple au prix de la paix.
   question: {fileID: 11400000, guid: 7404b4cbaafb39d4ab12474845bdec21, type: 2}
   stats:
     wealth: -3

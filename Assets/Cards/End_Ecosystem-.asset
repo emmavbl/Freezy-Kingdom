@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: End_Ecosystem-
   m_EditorClassIdentifier: 
   endName: Ecosytem --
-  description: "La mer s'est tarie de poissons, le soleil \xE0 fait fondre vos igloos
+  description: "La mer s'est tarie de poissons, le soleil a fait fondre vos igloos
     et vous \xEAtes design\xE9.e coupable. Le groupe choisit quelqu'un d'autre pour
     mener l'exode."
   sceneId: 0

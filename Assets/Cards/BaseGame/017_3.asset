@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 017_3
   m_EditorClassIdentifier: 
-  content: Je vous offre quelques repas au restaurant, le temps que vous en achetiez
-    un autre.
+  content: "Je t'offre quelques repas au restaurant, le temps que tu en rach\xE8tes
+    un."
   question: {fileID: 11400000, guid: ecbbdfe4c4fc0dc4b9aaca218f3f31bb, type: 2}
   stats:
     wealth: -1

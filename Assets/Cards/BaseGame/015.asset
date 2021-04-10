@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: achat terrain
   canBePicked: 1
-  lifeTime: 0
-  content: Je veux acheter le terrain de Pirate
+  lifeTime: 2
+  content: Je veux acheter le terrain de Pirate.
   answers:
   - {fileID: 11400000, guid: 1f456c4133ceae044b7d34ede3f173e2, type: 2}
   - {fileID: 11400000, guid: 7e02f6f0520497a4685479d5a09dc4de, type: 2}

@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 010_2
   m_EditorClassIdentifier: 
   content: "Oh, et bien... Je suppose que toutes les bonnes choses ont une fin...
-    Je vais m'exiler. Adieu, mon petit peuple ador\xE9.."
+    Je vais m'exiler. Adieu, mon petit peuple ador\xE9..."
   question: {fileID: 11400000, guid: e87b699a86bc1d742a5cb2bf29610da6, type: 2}
   stats:
     wealth: 0
     community: 0
     ecosystem: 0
   cardToUnlock: []
-  endToUnlock: {fileID: 0}
+  endToUnlock: {fileID: 11400000, guid: f9378b0ed65d9a74ab0d6802537c48d2, type: 2}
   placeToUnlock: 0
   lifetimeQuestion: 4
   morningAnswer: 0

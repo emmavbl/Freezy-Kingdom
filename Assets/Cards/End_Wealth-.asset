@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_Wealth-
   m_EditorClassIdentifier: 
   endName: Wealth --
-  description: "Vos poches sont vides ! Aucun pingouins ne vous \xE9coutent plus,
-    on vous chasse du palais \xE0 coups de nageoire."
+  description: "Vos poches sont vides ! Aucun pingouin ne vous \xE9coute plus, on
+    vous chasse du palais \xE0 coups de nageoire."
   sceneId: 0
