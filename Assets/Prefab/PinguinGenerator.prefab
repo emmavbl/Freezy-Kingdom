@@ -49,10 +49,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pinguins:
-  - {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}
-  - {fileID: 227997818878884776, guid: 0b4eae7798990084e87e1d5bf42b2211, type: 3}
-  - {fileID: 7091007467639817606, guid: 419597a7f3a71a7469f4fcb3064172c4, type: 3}
-  - {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}
-  - {fileID: 7611522070233587872, guid: 4a3476d19f65f5b409a6944b783230f2, type: 3}
-  - {fileID: 2906467737086859071, guid: e1626c8a338e06340a5d940d0160752c, type: 3}
+  - {fileID: 5885331137290466612, guid: a230e9993e392ee4faf8ca67e164c748, type: 3}
+  - {fileID: 5885331137290466612, guid: a230e9993e392ee4faf8ca67e164c748, type: 3}
   pinguinNumber: 20

@@ -34,18 +34,23 @@ public class Answer : ScriptableObject
 			{
 				case Place.Castle:
 					GameManager.currentGameplayDeck = GameManager.gameplayDeck;
+					GameManager.currentPlace = Place.Castle;
 					break;
 				case Place.Fishing:
 					GameManager.currentGameplayDeck = GameManager.fishingGameplayDeck;
+					GameManager.currentPlace = Place.Fishing;
 					break;
 				case Place.School:
 					GameManager.currentGameplayDeck = GameManager.schoolGameplayDeck;
+					GameManager.currentPlace = Place.School;
 					break;
 				case Place.Bank:
 					GameManager.currentGameplayDeck = GameManager.bankGameplayDeck;
+					GameManager.currentPlace = Place.Bank;
 					break;
 				default:
 					GameManager.currentGameplayDeck = GameManager.gameplayDeck;
+					GameManager.currentPlace = Place.Castle;
 					break;
 			}
 
