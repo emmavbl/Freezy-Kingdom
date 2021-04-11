@@ -14,7 +14,7 @@ public class StatsSign : MonoBehaviour
 
     void Growing()
 	{
-        LeanTween.moveY(gameObject, 800, 2).setDestroyOnComplete(true);
+        LeanTween.moveY(gameObject, 500, 2).setDestroyOnComplete(true);
         LeanTween.scale(gameObject, new Vector3(0, 0, 0), 2).setEaseInOutQuart();
 	}
 

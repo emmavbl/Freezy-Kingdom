@@ -339,10 +339,10 @@ RectTransform:
   m_Father: {fileID: 81932852}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1080, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &153234767
 MonoBehaviour:
@@ -419,11 +419,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3963402980699788656, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 262.2086
+      value: 184.8062
       objectReference: {fileID: 0}
     - target: {fileID: 3963402980699788656, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 110.754
+      value: 78.0601
       objectReference: {fileID: 0}
     - target: {fileID: 3963402980699788656, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
       propertyPath: m_LocalScale.x
@@ -463,11 +463,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3963402980699788656, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000024796
+      value: -0.0000038147
       objectReference: {fileID: 0}
     - target: {fileID: 3963402980699788656, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -363.5
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: 3963402980699788656, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -488,6 +488,10 @@ PrefabInstance:
     - target: {fileID: 6828710179848508113, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.23754883
+      objectReference: {fileID: 0}
+    - target: {fileID: 8252125242532316404, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 77
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91415c31b0c9b8949aad674587c82e50, type: 3}
@@ -528,10 +532,10 @@ RectTransform:
   m_Father: {fileID: 81932852}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1280.7046, y: 719.7487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &275265340
 MonoBehaviour:
@@ -686,10 +690,10 @@ RectTransform:
   m_Father: {fileID: 81932852}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1280.7046, y: 719.7487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280571901
 MonoBehaviour:
@@ -784,19 +788,19 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Theme
-    clip: {fileID: 8300000, guid: f9dd551e8f381cc47b3afa892823590d, type: 3}
+    clip: {fileID: 8300000, guid: 8ba6abdbfbf41f84eb74705c4685d856, type: 3}
     volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Castle
-    clip: {fileID: 8300000, guid: 44f605056914a024cac42ebd57f69e33, type: 3}
+    clip: {fileID: 8300000, guid: 5a40ce30becc35d4ea8f8844180690d1, type: 3}
     volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Bank
-    clip: {fileID: 8300000, guid: 7b4238a08a94ab541a97eab2d0466395, type: 3}
+    clip: {fileID: 8300000, guid: dd6f6f00dc8f921458b22d0e14053ccb, type: 3}
     volume: 0.5
     pitch: 1
     loop: 1
@@ -814,169 +818,127 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Nuit
-    clip: {fileID: 8300000, guid: 9099210bf64ead647ad125a296f8ce5f, type: 3}
+    clip: {fileID: 8300000, guid: 38020a65157d5db4ba9254a2a7831542, type: 3}
     volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Menu_yes
-    clip: {fileID: 8300000, guid: c2e5c9b635a912f45a91178fb2fe745d, type: 3}
+    clip: {fileID: 8300000, guid: f3980d8238fff274b852684e0144f5f8, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Menu_no
-    clip: {fileID: 8300000, guid: 8fe8c4a3c57e75d42b01e0f7d80f659e, type: 3}
+    clip: {fileID: 8300000, guid: 094cc760096b08541aa9e32308059189, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge-1
-    clip: {fileID: 8300000, guid: 5dd592abded986345a42cbc48bbe3ec6, type: 3}
+    clip: {fileID: 8300000, guid: 81e8d285b03b8084f998c58e661c2b7e, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge-2
-    clip: {fileID: 8300000, guid: a989a93ed5e15b34695425c31dcfec8c, type: 3}
+    clip: {fileID: 8300000, guid: 1f7999540449d1d419abeadec5461e84, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge-3
-    clip: {fileID: 8300000, guid: 00281a206ee84814f8412a37ce3b3c16, type: 3}
+    clip: {fileID: 8300000, guid: c7da9386794de9c44be5ebe0ea2e7819, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge+1
-    clip: {fileID: 8300000, guid: 88d6d3fa233bb2d42ba271b533824eb8, type: 3}
+    clip: {fileID: 8300000, guid: 4a19f73c037196b49b81fc4464e1265a, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge+2
-    clip: {fileID: 8300000, guid: a9f4508887e53e749917fce0c49f33bb, type: 3}
+    clip: {fileID: 8300000, guid: 704773d102c700a4d9689f8729ae71ba, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge+3
-    clip: {fileID: 8300000, guid: 1a482a44797d2034aa33cad2d51602b3, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Narwhal
-    clip: {fileID: 8300000, guid: c25a677c775ed844f9ae55adc5e7b0cb, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Walrus_1
-    clip: {fileID: 8300000, guid: 055f0f47ea3dc4547ab04aadf5f9b16e, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Walrus_2
-    clip: {fileID: 8300000, guid: bf009eeb7759c464fa25838ce8b0050d, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Walrus_3
-    clip: {fileID: 8300000, guid: 27656ae4ed9214046b69cc19bdbf12cb, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Bear_1
-    clip: {fileID: 8300000, guid: 8db874b0983c7a541ac05eeba37c50c3, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Bear_2
-    clip: {fileID: 8300000, guid: 975ad7f694296b4478fc5fc82dfcd5d9, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Bear_3
-    clip: {fileID: 8300000, guid: 9235c78c471786244ac23d1c25024585, type: 3}
+    clip: {fileID: 8300000, guid: 29f6773daf9514742a6097529ca683ee, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_1
-    clip: {fileID: 8300000, guid: 402be5f89fe00de4eb419967d025d9d1, type: 3}
+    clip: {fileID: 8300000, guid: 966eed5c7cfa6204f8eb5299b5ce3f3b, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_2
-    clip: {fileID: 8300000, guid: 6fd0cf5a08a8e0344b32a31460feb75e, type: 3}
+    clip: {fileID: 8300000, guid: df06f9d1c1d524d47b34b6a83bb6d9ea, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_3
-    clip: {fileID: 8300000, guid: 9ddc37bcc86bc5048bd1524a515c4787, type: 3}
+    clip: {fileID: 8300000, guid: 9086f2cdc55110d408d5587236f1b81d, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_4
-    clip: {fileID: 8300000, guid: e7d498ca62a562941b4475f7c1f7bacc, type: 3}
+    clip: {fileID: 8300000, guid: 17d17021ad7747e4babf1dc816cb7014, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_5
-    clip: {fileID: 8300000, guid: 838c311e31cc69841b7ab4f1356aa652, type: 3}
+    clip: {fileID: 8300000, guid: dd1dc2b2225347943b69eb4ec7b861f2, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_6
-    clip: {fileID: 8300000, guid: 279d870ba78919843b12385c1a4cd08e, type: 3}
+    clip: {fileID: 8300000, guid: 8b02bd2854758944fa2bc3958ef95e4d, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_7
-    clip: {fileID: 8300000, guid: e09db93d15f21a34196536ceb805e258, type: 3}
+    clip: {fileID: 8300000, guid: dfd2d4c37f52d7741b5ad9aa0811f8c4, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_8
-    clip: {fileID: 8300000, guid: 3c9d6f789ed57bd4b951518be469a72b, type: 3}
+    clip: {fileID: 8300000, guid: 9b428cfaed9a854409def585011df6b0, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_9
-    clip: {fileID: 8300000, guid: 9c5aed81f3cef0240b03ac516ede8367, type: 3}
+    clip: {fileID: 8300000, guid: 27c05abc7d521e64296cfbb3a32f69be, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_10
-    clip: {fileID: 8300000, guid: a927e679902ad334c82054c88d6da21c, type: 3}
+    clip: {fileID: 8300000, guid: 70c6f1479a0156f459cd2279572a2eb7, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_11
-    clip: {fileID: 8300000, guid: bdc07b292c21e4b4788f2e41f4869f71, type: 3}
+    clip: {fileID: 8300000, guid: 141d2f973a8161043a273b708d49dca1, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_12
-    clip: {fileID: 8300000, guid: e020cedcf6c3b9446b08aadfdcca8fc3, type: 3}
+    clip: {fileID: 8300000, guid: e220c8e12611f564a8a98ce5bb1d2908, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -1012,7 +974,6 @@ GameObject:
   - component: {fileID: 1677987499}
   - component: {fileID: 1677987501}
   - component: {fileID: 1677987500}
-  - component: {fileID: 1677987502}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1036,8 +997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -463}
-  m_SizeDelta: {x: 468.9672, y: 88.25479}
+  m_AnchoredPosition: {x: 0, y: -306}
+  m_SizeDelta: {x: 468.9672, y: 61.6807}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677987500
 MonoBehaviour:
@@ -1061,7 +1022,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ce8f80cae1f024744840f8b36d8f3251, type: 3}
-    m_FontSize: 43
+    m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 6
@@ -1081,18 +1042,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677987498}
   m_CullTransparentMesh: 1
---- !u!114 &1677987502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677987498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a33e905cec81f84091183abea804707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1709143960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,8 +1077,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.31}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 48.5495}
-  m_SizeDelta: {x: 483.7073, y: 434.4511}
+  m_AnchoredPosition: {x: -0.00002861, y: 54}
+  m_SizeDelta: {x: 306.0985, y: 274.9285}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1709143962
 MonoBehaviour:

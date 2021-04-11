@@ -110,7 +110,7 @@ public class DisplayStats : MonoBehaviour
         }
 		if (wealth != null)
 		{
-			wealth.transform.localScale = new Vector3(1, 1, 1) * (1 + ((Mathf.Abs(stats.wealth)-1)*0.5f));
+			wealth.transform.localScale = new Vector3(.5f, .5f, .5f) * (1 + ((Mathf.Abs(stats.wealth)-1)*0.5f));
 		}
 
         GameObject community = null;
@@ -132,7 +132,7 @@ public class DisplayStats : MonoBehaviour
         }
 		if (community != null)
 		{
-			community.transform.localScale = new Vector3(1, 1, 1) * (1 + ((Mathf.Abs(stats.community)-1) * 0.5f));
+			community.transform.localScale = new Vector3(.5f, .5f, .5f) * (1 + ((Mathf.Abs(stats.community)-1) * 0.5f));
 		}
 
         GameObject ecosystem = null;
@@ -154,7 +154,7 @@ public class DisplayStats : MonoBehaviour
         }
 		if (ecosystem != null)
 		{
-			ecosystem.transform.localScale = new Vector3(1, 1, 1) * ( 1 + ((Mathf.Abs(stats.ecosystem)-1) *0.5f));
+			ecosystem.transform.localScale = new Vector3(.5f, .5f, .5f) * ( 1 + ((Mathf.Abs(stats.ecosystem)-1) *0.5f));
 		}
 
     }

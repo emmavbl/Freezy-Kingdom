@@ -16,7 +16,7 @@ public class PinguinGenerator : MonoBehaviour
 		{
             GameObject temp = pinguins[Random.Range(0, pinguins.Length)];
             Vector3 offset = new Vector3(
-                transform.position.x + Random.Range(-1000, 1000),
+                transform.position.x + Random.Range(-800, 800),
                 transform.position.y + Random.Range(-50,0),
                 0
                 );
