@@ -16,7 +16,7 @@ MonoBehaviour:
   canBePicked: 1
   lifeTime: 0
   content: "Je n'en peux plus, j'ai trop d'\xE9l\xE8ves \xE0 g\xE9rer et je n'arrive
-    pas \xE0 leur donner de bon cours...\r"
+    pas \xE0 leur donner de bons cours...\r"
   answers:
   - {fileID: 11400000, guid: a637b505b996be941b00d8f08c48c9ce, type: 2}
   - {fileID: 11400000, guid: b6287ae387174db4c89120b3a1c6af9f, type: 2}

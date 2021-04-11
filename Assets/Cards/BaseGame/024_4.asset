@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 024_4
   m_EditorClassIdentifier: 
-  content: "Laissons seulement les \xE9coles ouvertes, le reste du peuple se reposera
-    en attendant que \xE7a passe."
+  content: "Laissons seulement les \xE9coles ouvertes, le reste du peuple attendra
+    que \xE7a passe."
   question: {fileID: 11400000, guid: c0c79f6f4d7bfba4e821a1c6b4ad02b6, type: 2}
   stats:
     wealth: -1
