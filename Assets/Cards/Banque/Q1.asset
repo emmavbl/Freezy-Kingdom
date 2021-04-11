@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: bank_taxes_complaints
   canBePicked: 1
-  lifeTime: 0
-  content: "Le peuple se plaint de payer trop d'imp\xF4ts   "
+  lifeTime: 4
+  content: "Le peuple se plaint de payer trop d'imp\xF4ts."
   answers:
   - {fileID: 11400000, guid: d5935f8929b8e9f488eab83fa9204ea7, type: 2}
   - {fileID: 11400000, guid: b0dd9057e4f6f3f479734401eeb3383a, type: 2}

@@ -6,7 +6,7 @@ public class ButtonStart : MonoBehaviour
 {
     public void OnClick()
 	{
-        FindObjectOfType<AudioManager>().Play("Q1");
+        FindObjectOfType<AudioManager>().Play("Q3");
         LeanTween.scale(gameObject, new Vector3(0, 0, 0), .5f).setEaseInBack().setOnComplete(Quit);
 
     }

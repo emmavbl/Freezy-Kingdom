@@ -585,18 +585,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Theme
-    clip: {fileID: 8300000, guid: 3bbc4e80c28c62145abc09f9a293b229, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-  - name: Castle
-    clip: {fileID: 8300000, guid: dea4b2e055feb4746b8e7c00b73d7e4f, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
   - name: Q1
     clip: {fileID: 8300000, guid: f295719a054df37439d2a0cd8b93d983, type: 3}
     volume: 1
@@ -621,6 +609,18 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 3bbc4e80c28c62145abc09f9a293b229, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Castle
+    clip: {fileID: 8300000, guid: dea4b2e055feb4746b8e7c00b73d7e4f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
   - name: Bank
     clip: {fileID: 8300000, guid: bfd9291bcd814d74ba4e8f23cf7dc029, type: 3}
     volume: 1
@@ -632,6 +632,174 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 1
+    source: {fileID: 0}
+  - name: Fish
+    clip: {fileID: 8300000, guid: d4a8d4605251985448268b72113cfac0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Menu_yes
+    clip: {fileID: 8300000, guid: f3980d8238fff274b852684e0144f5f8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu_no
+    clip: {fileID: 8300000, guid: 094cc760096b08541aa9e32308059189, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jauge-1
+    clip: {fileID: 8300000, guid: 81e8d285b03b8084f998c58e661c2b7e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jauge-2
+    clip: {fileID: 8300000, guid: 1f7999540449d1d419abeadec5461e84, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jauge-3
+    clip: {fileID: 8300000, guid: c7da9386794de9c44be5ebe0ea2e7819, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jauge+1
+    clip: {fileID: 8300000, guid: 4a19f73c037196b49b81fc4464e1265a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jauge+2
+    clip: {fileID: 8300000, guid: 704773d102c700a4d9689f8729ae71ba, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jauge+3
+    clip: {fileID: 8300000, guid: 29f6773daf9514742a6097529ca683ee, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Narwhal
+    clip: {fileID: 8300000, guid: 54a8edbb4daf2174082e80b3c3e0062f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Walrus_1
+    clip: {fileID: 8300000, guid: fc7c8565beb91674980199f09a406357, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Walrus_2
+    clip: {fileID: 8300000, guid: e7095fa8f7ceef341b7bccffd37f5e1c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Walrus_3
+    clip: {fileID: 8300000, guid: 5aa71e3bfb6bb2f46b842b76e5461d18, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bear_1
+    clip: {fileID: 8300000, guid: 8832c8d970108e04185398104cb46f02, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bear_2
+    clip: {fileID: 8300000, guid: 55b1903297c84ed4ab2e7f02e659c6bf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bear_3
+    clip: {fileID: 8300000, guid: 0b082820452735f4b883923cafa44cab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_1
+    clip: {fileID: 8300000, guid: 966eed5c7cfa6204f8eb5299b5ce3f3b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_2
+    clip: {fileID: 8300000, guid: 0b082820452735f4b883923cafa44cab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_3
+    clip: {fileID: 8300000, guid: 9086f2cdc55110d408d5587236f1b81d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_4
+    clip: {fileID: 8300000, guid: 17d17021ad7747e4babf1dc816cb7014, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_5
+    clip: {fileID: 8300000, guid: dd1dc2b2225347943b69eb4ec7b861f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_6
+    clip: {fileID: 8300000, guid: 8b02bd2854758944fa2bc3958ef95e4d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_7
+    clip: {fileID: 8300000, guid: dfd2d4c37f52d7741b5ad9aa0811f8c4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_8
+    clip: {fileID: 8300000, guid: 9b428cfaed9a854409def585011df6b0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_9
+    clip: {fileID: 8300000, guid: 27c05abc7d521e64296cfbb3a32f69be, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_10
+    clip: {fileID: 8300000, guid: 70c6f1479a0156f459cd2279572a2eb7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_11
+    clip: {fileID: 8300000, guid: 141d2f973a8161043a273b708d49dca1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Penguin_12
+    clip: {fileID: 8300000, guid: e220c8e12611f564a8a98ce5bb1d2908, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &1446777729
 Transform:

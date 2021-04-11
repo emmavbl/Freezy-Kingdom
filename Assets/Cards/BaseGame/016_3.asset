@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 016_3
   m_EditorClassIdentifier: 
-  content: "Donnon-leur un peu d'argent, le village devrait se d\xE9brouiller avec
-    \xE7a."
+  content: Donnons-leur un peu d'argent.
   question: {fileID: 11400000, guid: 6cc9fb8f96a431248a377b0bc66e0837, type: 2}
   stats:
     wealth: -1

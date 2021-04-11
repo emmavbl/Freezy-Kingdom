@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: End_exile
   m_EditorClassIdentifier: 
   endName: exile
-  description: "Vous quittez avec regret votre royaume. Mais les habitant.e.s sont
-    tr\xE8s heureux.ses et organisent d\xE9j\xE0 de grandes f\xEAtes. Vous repartez
-    la t\xEAte droite, sans regarder derri\xE8re vous pour ne pas remuer le couteau
-    dans la plaie..."
+  description: "Vous quittez avec regret votre royaume laissant les habitant.e.s
+    tr\xE8s heureux.ses."
   sceneId: 0

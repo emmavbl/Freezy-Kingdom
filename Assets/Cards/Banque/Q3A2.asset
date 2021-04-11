@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Q3A2
   m_EditorClassIdentifier: 
   content: "Profitons-en pour construire un r\xE9seau de transport en commun plus
-    \xE9cologique"
+    \xE9cologique."
   question: {fileID: 11400000, guid: b3c247b7447a23741b412b21b02828a7, type: 2}
   stats:
     wealth: 0

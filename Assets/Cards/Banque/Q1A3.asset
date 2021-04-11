@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Q1A3
   m_EditorClassIdentifier: 
   content: "L'argent des imp\xF4ts sert le bien commun, je vais offrir \xE0 chacun.e
-    une plante d'int\xE9rieur"
+    une plante d'int\xE9rieur."
   question: {fileID: 11400000, guid: ccd42919aa4d23747a1dd7a32b659cf5, type: 2}
   stats:
     wealth: -1
