@@ -22,5 +22,5 @@ MonoBehaviour:
   cardToUnlock: []
   endToUnlock: {fileID: 11400000, guid: 4b7707673e3d57e479d742fa834e638c, type: 2}
   placeToUnlock: 0
-  lifetimeQuestion: 4
+  lifetimeQuestion: 6
   morningAnswer: 0

@@ -22,5 +22,5 @@ MonoBehaviour:
   cardToUnlock: []
   endToUnlock: {fileID: 0}
   placeToUnlock: 0
-  lifetimeQuestion: 15
+  lifetimeQuestion: 6
   morningAnswer: 0
