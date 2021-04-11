@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: End_fish
   m_EditorClassIdentifier: 
   endName: poissons
-  description: "Vous avez essay\xE9 de r\xE9duire un peuple en esclavage, vos sujets
-    sont indign\xE9s et se sont alli\xE9s avec les poissons pour renverser le pouvoir
-    ! Fuyez aussi loin que vous le pouvez, mieux vaudrait ne plus croiser personne..."
+  description: "Vous avez essay\xE9 de r\xE9duire les poissons en esclavage, vos
+    sujets se sont indign\xE9s ont renvers\xE9 le pouvoir !"
   character: {fileID: 4608362335081153297, guid: 2353d616b8137424fb7cc3a53e88b23d, type: 3}
