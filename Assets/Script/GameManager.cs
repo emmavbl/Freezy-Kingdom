@@ -203,13 +203,14 @@ public class GameManager : MonoBehaviour
         temp_screen.GetComponentInChildren<Button>().transform.localScale = new Vector3(0, 0, 0);
         Button button = temp_screen.GetComponentInChildren<Button>();
         LeanTween.scale(button.gameObject, new Vector3(1, 1, 1), .5f).setEaseOutBack().setDelay(6.5f);
-        temp_screen.GetComponent<DisplayStats>().SetStats(turnStats);
 
 		// Add turnStat to stats
 		foreach (Stats s in turnStats)
 		{
             stats.Add(s);
 		}
+
+        temp_screen.GetComponent<DisplayStats>().SetStats(stats, turnStats);
 
         Debug.Log(stats.Print());
 

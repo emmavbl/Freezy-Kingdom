@@ -11,6 +11,9 @@ public class DisplayStats : MonoBehaviour
     [SerializeField] GameObject plus;
     [SerializeField] GameObject moins;
 
+    [SerializeField] GameObject happy;
+    [SerializeField] GameObject anger;
+    [SerializeField] GameObject black;
 
     // Start is called before the first frame update
     void Start()
@@ -48,11 +51,43 @@ public class DisplayStats : MonoBehaviour
         GM.Turn();
     }
 
-    public void SetStats(List<Stats> stats)
+    public void SetStats(Stats stats, List<Stats> turnStats)
 	{
-		for (int i = 0; i < stats.Count; i++)
+        PinguinAnimation[] pinguins = GetComponentsInChildren<PinguinAnimation>();
+        float[] gameStats = new float[3] {stats.wealth, stats.community, stats.ecosystem };
+
+		for (int i = 0; i < 3; i++)
 		{
-            StartCoroutine(DisplayPoints(stats[i], (2*i) + .5f));
+            RectTransform[] positions = pinguins[i].GetComponentsInChildren<RectTransform>();
+
+			if (gameStats[i] >= 20) //si le pigouin est content
+			{
+                var GO_happy = Instantiate(happy,
+                    positions[2].transform.position, 
+                    Quaternion.identity,
+                    positions[2].transform);
+                GO_happy.transform.localScale = new Vector3(1f, 1f, 1f) * ((Mathf.Abs(gameStats[i]-20) / 20)+0.2f);
+
+                var GO_black = Instantiate(black,
+                    positions[1].transform.position,
+                    Quaternion.identity,
+                    positions[1].transform);
+                GO_black.GetComponent<CanvasGroup>().alpha = (Mathf.Abs(gameStats[i] - 20f) / 20f)+0.2f;
+            }
+			else
+			{
+                var GO_anger = Instantiate(anger,
+                    positions[2].transform.position,
+                    Quaternion.identity,
+                    positions[2].transform);
+                GO_anger.transform.localScale = new Vector3(1f, 1f, 1f) * ((Mathf.Abs(gameStats[i] - 20) / 20)+0.2f);
+
+            }
+        }
+
+		for (int i = 0; i < turnStats.Count; i++)
+		{
+            StartCoroutine(DisplayPoints(turnStats[i], (2*i) + .5f));
 		}
     }
 
