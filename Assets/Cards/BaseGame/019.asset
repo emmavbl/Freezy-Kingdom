@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: machine_2
   canBePicked: 0
-  lifeTime: 1
-  content: "J'ai trouv\xE9 une machine \xE0 laveradapt\xE9e \xE0 mes besoins, pouvez-vous
+  lifeTime: 0
+  content: "J'ai trouv\xE9 une machine \xE0 laver adapt\xE9e \xE0 mes besoins, pouvez-vous
     me la payer ?   "
   answers:
   - {fileID: 11400000, guid: ebdc3f423cbb7604e8e94dddc2675d34, type: 2}

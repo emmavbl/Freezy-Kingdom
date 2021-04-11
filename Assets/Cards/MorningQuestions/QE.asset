@@ -17,6 +17,6 @@ MonoBehaviour:
   lifeTime: 0
   content: "Passez voir les \xE9coliers aujourd'hui !"
   answers:
-  - {fileID: 11400000, guid: ea71d27aa44875a42ba9be61687ef8ab, type: 2}
   - {fileID: 11400000, guid: d9e3c4da2bf3ff942925af1347bc36db, type: 2}
+  - {fileID: 11400000, guid: ea71d27aa44875a42ba9be61687ef8ab, type: 2}
   character: {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}

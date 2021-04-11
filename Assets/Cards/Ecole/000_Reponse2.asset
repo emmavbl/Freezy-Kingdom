@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 000_Reponse2
   m_EditorClassIdentifier: 
-  content: Faire de l'argent
+  content: "\xC0 faire de l'argent."
   question: {fileID: 11400000, guid: 87fdd3aab4be8204c8cf1aaa63a6b03d, type: 2}
   stats:
     wealth: 2

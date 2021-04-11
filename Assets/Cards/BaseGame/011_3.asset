@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 011_3
   m_EditorClassIdentifier: 
-  content: Je vais les laisser faire, et attendre une occasion pour leur parler calmement.
+  content: Je vais attendre une occasion pour leur parler calmement.
   question: {fileID: 11400000, guid: 054c922543a4bbd459f3f326c89c8c00, type: 2}
   stats:
     wealth: 0

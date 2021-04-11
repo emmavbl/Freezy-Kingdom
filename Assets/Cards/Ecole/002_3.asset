@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 002_3
   m_EditorClassIdentifier: 
-  content: "Iels ne devraient pas s'inqui\xE9ter de l'enseignement de leurs bouts
-    de chou. Organisons une sortie scolaire pour dissiper ce malentendu !"
+  content: Organisons une sortie scolaire pour les rassurer !
   question: {fileID: 11400000, guid: 121bdf9e25c33604dac27457644f20db, type: 2}
   stats:
     wealth: -1

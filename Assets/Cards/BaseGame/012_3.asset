@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 012_3
   m_EditorClassIdentifier: 
-  content: Il faut leur proposer une alliance. Nous pouvons tout partager avec ce
-    peuple au prix de la paix.
+  content: Proposons une alliance, nous pouvons tout partager pour maintenir la paix.
   question: {fileID: 11400000, guid: 7404b4cbaafb39d4ab12474845bdec21, type: 2}
   stats:
     wealth: -3

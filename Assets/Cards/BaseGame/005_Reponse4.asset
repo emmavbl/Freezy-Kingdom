@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 005_Reponse4
   m_EditorClassIdentifier: 
-  content: "Non, je ne pr\xE9f\xE8re pas"
+  content: "Non, je ne pr\xE9f\xE8re pas."
   question: {fileID: 11400000, guid: 533af368215cb6847b557c7b24444aeb, type: 2}
   stats:
     wealth: 0

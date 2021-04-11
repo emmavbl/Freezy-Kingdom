@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: S_banque
   canBePicked: 1
-  lifeTime: 5
-  content: "Construisons une banque pour \xEAtre comp\xE9titifs"
+  lifeTime: 4997
+  content: "Construisons une banque pour \xEAtre comp\xE9titifs."
   answers:
   - {fileID: 11400000, guid: 3949546339533e84299b8ab86a8d1347, type: 2}
   - {fileID: 11400000, guid: 8d41baceb54d15b45a49f8ad059ad99f, type: 2}

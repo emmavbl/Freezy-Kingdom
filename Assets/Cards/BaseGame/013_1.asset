@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 013_1
   m_EditorClassIdentifier: 
-  content: "Allez vous amuser ce soir, je demanderai au reste de la population d'\xEAtre
+  content: "Allez vous amuser, je demanderai au reste de la population d'\xEAtre
     tol\xE9rant pour cette fois."
   question: {fileID: 11400000, guid: 45b2cdf1770115e4896b617ce52ee7b2, type: 2}
   stats:

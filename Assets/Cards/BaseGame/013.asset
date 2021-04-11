@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: "f\xEAte"
   canBePicked: 1
   lifeTime: 0
-  content: "On s'ennuie, on voudrait faire la f\xEAte..   "
+  content: "On s'ennuie, on voudrait faire la f\xEAte..."
   answers:
   - {fileID: 11400000, guid: 83518afde48aa794981873ded581d340, type: 2}
   - {fileID: 11400000, guid: b67c9d7dfbb011a46a0e0c6dc477306f, type: 2}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_exile
   m_EditorClassIdentifier: 
   endName: exile
-  description: "Vous quittez avec regret votre royaume laissant les habitant.e.s
+  description: "Vous quittez avec regret votre royaume mais laissant les habitant.e.s
     tr\xE8s heureux.ses."
   sceneId: 0

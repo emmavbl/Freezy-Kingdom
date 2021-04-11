@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 003_4
   m_EditorClassIdentifier: 
-  content: "Embauchez la meilleure cheffe de la r\xE9gion ! Je veux que ces enfants
-    sortent de la cantine avec le sourire !"
+  content: "Embauchons la meilleure cheffe de la r\xE9gion, \xE7a leur fera plaisir
+    !"
   question: {fileID: 11400000, guid: 3d4b614899bf49346980aced1c0ffca4, type: 2}
   stats:
     wealth: -3

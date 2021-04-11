@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 023_4
   m_EditorClassIdentifier: 
-  content: "D'accord, \xE7a te dirait de laisser les jeunes de l'\xE9cole s'en charger
-    ? Iels d\xE9bordent d'imagination !"
+  content: "D'accord, laissons les jeunes de l'\xE9cole s'en charger."
   question: {fileID: 11400000, guid: a492e8c1b68035e44b52416a8512f8f3, type: 2}
   stats:
     wealth: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 001_Reponse1
   m_EditorClassIdentifier: 
-  content: "Construisons une autre \xE9cole"
+  content: "Construisons une autre \xE9cole."
   question: {fileID: 11400000, guid: a12efcea2e439944fae2237efcdb180a, type: 2}
   stats:
     wealth: -2

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 004_4
   m_EditorClassIdentifier: 
-  content: "Je vais laisser ses parents finir le travail une heure plus t\xF4t, pour
-    qu'iels puissent aller chercher leurs enfants."
+  content: "Ses parents finiront maintenant le travail une heure plus t\xF4t pour
+    aller chercher leurs enfants."
   question: {fileID: 11400000, guid: 1948ab65e42f01d4a8cc71b9612c0cd5, type: 2}
   stats:
     wealth: -1

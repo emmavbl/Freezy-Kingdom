@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 002_1
   m_EditorClassIdentifier: 
-  content: "Ils auront le droit d'assister aux cours pendant une journ\xE9e compl\xE8te."
+  content: "Faisons-les d'assister aux cours pendant une journ\xE9e."
   question: {fileID: 11400000, guid: 121bdf9e25c33604dac27457644f20db, type: 2}
   stats:
     wealth: 0

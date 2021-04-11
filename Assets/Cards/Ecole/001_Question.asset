@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: trop_loin
   canBePicked: 1
-  lifeTime: 0
-  content: "Des enfants ne peuvent pas se rendre \xE0 l'\xE9cole car ils vivent trop
-    loin   "
+  lifeTime: 4
+  content: "Des enfants vivent trop loin ne peuvent donc pas se rendre \xE0 l'\xE9cole."
   answers:
   - {fileID: 11400000, guid: 29fd95c24315f314c98826ead6b09d33, type: 2}
   - {fileID: 11400000, guid: 875f8d1405cd5ee4d98f15d031beba15, type: 2}

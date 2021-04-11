@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 004_3
   m_EditorClassIdentifier: 
   content: Je vais mettre en place des transports en commun, mais tu devras payer
-    les trajets de sa propre poche !
+    les trajets de ta poche !
   question: {fileID: 11400000, guid: 1948ab65e42f01d4a8cc71b9612c0cd5, type: 2}
   stats:
     wealth: 1

@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 009_1
   m_EditorClassIdentifier: 
-  content: "Bien s\xFBr, j'en parlerai \xE0 mes adjoints afin de laisser le pouvoir
-    au peuple."
+  content: "Bien s\xFBr."
   question: {fileID: 11400000, guid: 4c5e86bfc1f4c21468a1c6ad4f3479cf, type: 2}
   stats:
     wealth: -1

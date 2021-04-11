@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 005_4
   m_EditorClassIdentifier: 
-  content: Donnez lui des devoirs plus faciles.
+  content: Donnons-lui des devoirs plus faciles.
   question: {fileID: 11400000, guid: 437ab505dde19f24aa7742396fcf5820, type: 2}
   stats:
     wealth: 0

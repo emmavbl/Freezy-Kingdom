@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 013_2
   m_EditorClassIdentifier: 
-  content: "Je comprends, c'est d'accord mais invitez des familles pour que l'\xE9v\xE8nement
-    reste convivial."
+  content: "C'est d'accord mais invitez des familles pour que l'\xE9v\xE8nement reste
+    convivial."
   question: {fileID: 11400000, guid: 45b2cdf1770115e4896b617ce52ee7b2, type: 2}
   stats:
     wealth: 2

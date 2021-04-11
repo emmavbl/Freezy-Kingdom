@@ -766,7 +766,7 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Castle
-    clip: {fileID: 8300000, guid: dea4b2e055feb4746b8e7c00b73d7e4f, type: 3}
+    clip: {fileID: 8300000, guid: 44f605056914a024cac42ebd57f69e33, type: 3}
     volume: 1
     pitch: 1
     loop: 1
@@ -778,7 +778,7 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: School
-    clip: {fileID: 8300000, guid: d3f87910a608b384abbbc6429320bcc2, type: 3}
+    clip: {fileID: 8300000, guid: e136fee689a30bf4496a7d9a5a8b116d, type: 3}
     volume: 1
     pitch: 1
     loop: 1

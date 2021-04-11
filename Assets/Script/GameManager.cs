@@ -129,10 +129,9 @@ public class GameManager : MonoBehaviour
         AddDeck(schoolGameplayDeck, schoolDeck);
         AddDeck(bankGameplayDeck, bankDeck);
 
-
         // reset Place 
         currentPlace = Place.Castle;
-   
+
         Debug.Log("Reset done");
     }
 
@@ -141,6 +140,8 @@ public class GameManager : MonoBehaviour
 
         // initialisation
         // choose character
+        FindObjectOfType<AudioManager>().Stop("GameOver");
+        FindObjectOfType<AudioManager>().Play("Theme");
 
         Turn();
 	}
@@ -148,6 +149,8 @@ public class GameManager : MonoBehaviour
     public void Turn()
 	{
         turn++;
+        FindObjectOfType<AudioManager>().Stop("Nuit");
+
 
         // question lieu si lieu accesible !!!
         List<Place> accessiblePlace = new List<Place>();
@@ -184,10 +187,10 @@ public class GameManager : MonoBehaviour
                 FindObjectOfType<DisplayQuestion>().UpdateToCard(bankCard);
                 break;
 			default:
+                //FindObjectOfType<AudioManager>().Play("Castle");
                 DisplayNextCard();
                 break;
 		}
-
     }
 
     public void Night()
@@ -198,6 +201,11 @@ public class GameManager : MonoBehaviour
             Quaternion.identity,
             FindObjectOfType<Canvas>().transform);
 
+        FindObjectOfType<AudioManager>().Stop("Castle");
+        FindObjectOfType<AudioManager>().Stop("Fishing");
+        FindObjectOfType<AudioManager>().Stop("School");
+        FindObjectOfType<AudioManager>().Stop("Bank");
+        //FindObjectOfType<AudioManager>().Loud("Nuit");
         FindObjectOfType<AudioManager>().Play("Nuit");
 
         temp_screen.GetComponentInChildren<Button>().transform.localScale = new Vector3(0, 0, 0);
@@ -265,10 +273,15 @@ public class GameManager : MonoBehaviour
 			}
 		}
 
-	}
+
+    }
 
     public void GameOver()
 	{
+        FindObjectOfType<AudioManager>().Stop("Nuit");
+        //FindObjectOfType<AudioManager>().Stop("Fishing");
+        //FindObjectOfType<AudioManager>().Stop("School");
+        //FindObjectOfType<AudioManager>().Stop("Bank");
         FindObjectOfType<AudioManager>().Play("GameOver");
         GetScene(3);
 	}

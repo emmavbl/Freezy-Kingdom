@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 003_3
   m_EditorClassIdentifier: 
-  content: "On peut leur faire d\xE9couvrir de nouveaux aliments ? Par contre, ce
-    seront des l\xE9gumes avant tout."
+  content: "Faisons-leur d\xE9couvrir de nouveaux aliments : les l\xE9gumes."
   question: {fileID: 11400000, guid: 3d4b614899bf49346980aced1c0ffca4, type: 2}
   stats:
     wealth: -1

@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 012_4
   m_EditorClassIdentifier: 
-  content: Ripostons car c'est notre village et notre peuple qui comptent avant tout
-    ! Nous sommes en guerre !
+  content: Ripostons ! Nous sommes en guerre !
   question: {fileID: 11400000, guid: 7404b4cbaafb39d4ab12474845bdec21, type: 2}
   stats:
     wealth: 1

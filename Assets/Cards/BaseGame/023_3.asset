@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 023_3
   m_EditorClassIdentifier: 
-  content: "Pourquoi pas. Laissons les ancien.ne.s s'en charger, iels repr\xE9sentent
-    le mieux notre peuple."
+  content: "Oui, laissons les ancien.ne.s s'en charger, iels repr\xE9sentent le mieux
+    notre peuple."
   question: {fileID: 11400000, guid: a492e8c1b68035e44b52416a8512f8f3, type: 2}
   stats:
     wealth: 0

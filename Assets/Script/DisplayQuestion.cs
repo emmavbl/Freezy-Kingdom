@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using TMPro;
 
 public class DisplayQuestion : MonoBehaviour
 {
@@ -43,18 +42,25 @@ public class DisplayQuestion : MonoBehaviour
         // set background
         Sprite background = null;
         Destroy(backgroundPosition.GetComponentInChildren<Image>());
-		switch (GameManager.currentPlace)
+        if (GameManager.currentPlace != Place.Castle)
+            FindObjectOfType<AudioManager>().Stop("Castle");
+
+        switch (GameManager.currentPlace)
 		{
 			case Place.Fishing:
+                FindObjectOfType<AudioManager>().Play("Fishing");
                 background = fishingSprite;
 				break;
 			case Place.School:
+                FindObjectOfType<AudioManager>().Play("School");
                 background = schoolSprite;
-				break;
+                break;
 			case Place.Bank:
+                FindObjectOfType<AudioManager>().Play("Bank");
                 background = bankSprite;
 				break;
 			default:
+                FindObjectOfType<AudioManager>().Play("Castle");
                 background = null;
 				break;
 		}
