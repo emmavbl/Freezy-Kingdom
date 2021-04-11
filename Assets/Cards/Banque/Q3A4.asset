@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q3A4
   m_EditorClassIdentifier: 
-  content: Je le garde pour moi
+  content: Je le garde pour moi.
   question: {fileID: 11400000, guid: b3c247b7447a23741b412b21b02828a7, type: 2}
   stats:
     wealth: 1

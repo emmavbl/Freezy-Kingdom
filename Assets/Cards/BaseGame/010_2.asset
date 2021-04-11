@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 010_2
   m_EditorClassIdentifier: 
-  content: "Oh, et bien... Je suppose que toutes les bonnes choses ont une fin...
-    Je vais m'exiler. Adieu, mon petit peuple ador\xE9..."
+  content: "Si c'est comme \xE7a je vais m'exiler, adieu mon cher peuple."
   question: {fileID: 11400000, guid: e87b699a86bc1d742a5cb2bf29610da6, type: 2}
   stats:
     wealth: 0

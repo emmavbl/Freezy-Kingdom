@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q4A4
   m_EditorClassIdentifier: 
-  content: Ne rien faire
+  content: C'est vraiment dommage.
   question: {fileID: 11400000, guid: c3f5b71762b30bd48b9666265bd8bc96, type: 2}
   stats:
     wealth: -1

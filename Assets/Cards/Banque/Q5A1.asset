@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q5A1
   m_EditorClassIdentifier: 
-  content: Mettons-le au cachot
+  content: Mettons-le au cachot.
   question: {fileID: 11400000, guid: c8c494fc5ff1e8c4d99c1fdae035cece, type: 2}
   stats:
     wealth: -1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q6A3
   m_EditorClassIdentifier: 
-  content: Faisons baisser le budget de la PASA
+  content: Faisons baisser le budget de la PASA.
   question: {fileID: 11400000, guid: e7f9ba1bf0bac32418b28c73ba9d14cf, type: 2}
   stats:
     wealth: 0
