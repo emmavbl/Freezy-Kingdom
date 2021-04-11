@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_narval
   m_EditorClassIdentifier: 
   endName: mangas
-  description: "Le village vous trouve sans coeur et pr\xE9f\xE8rerait que vous l'\xE9coutiez
-    plut\xF4t qu'\xEAtre m\xE9pris\xE9 : tout ne tourne pas autour de vous."
+  description: "En pr\xE9f\xE9rant ne pas \xE9couter narval, vous vous \xEAtes mis
+    le village \xE0 dos. \xC7a vous servira de le\xE7on."
   sceneId: 0

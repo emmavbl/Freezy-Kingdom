@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 008_4
   m_EditorClassIdentifier: 
-  content: "Je ne peux pas accepter une telle demande, mais si cela vous convient,
-    vous pourriez changer de poste pour former la jeunesse avec votre savoir-faire,
-    et peut-\xEAtre moins vous \xE9puiser."
+  content: "Non mais vous pourriez changer de poste pour former la jeunesse et peut-\xEAtre
+    moins vous \xE9puiser."
   question: {fileID: 11400000, guid: 68f5c3aa54eec3846b93fdb76e446700, type: 2}
   stats:
     wealth: -1

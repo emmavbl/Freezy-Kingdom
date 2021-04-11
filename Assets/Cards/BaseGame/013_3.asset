@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 013_3
   m_EditorClassIdentifier: 
-  content: "D'accord, mais c'est moi qui l'organise. Je ne veux pas de d\xE9bordements.
-    Ce sera un bal costum\xE9, histoire de faire comme \xE0 la bonne \xE9poque !"
+  content: "D'accord, mais c'est moi qui l'organise : ce sera un bal costum\xE9 !"
   question: {fileID: 11400000, guid: 45b2cdf1770115e4896b617ce52ee7b2, type: 2}
   stats:
     wealth: -2

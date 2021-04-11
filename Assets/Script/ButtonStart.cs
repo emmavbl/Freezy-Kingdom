@@ -6,12 +6,11 @@ public class ButtonStart : MonoBehaviour
 {
     public void OnClick()
 	{
-
+        FindObjectOfType<AudioManager>().Play("Q3");
         LeanTween.scale(gameObject, new Vector3(0, 0, 0), .5f).setEaseInBack().setOnComplete(Quit);
 
-    
-	}
-	private void Quit()
+    }
+    private void Quit()
 	{
         FindObjectOfType<GameManager>().GetScene(1);
 

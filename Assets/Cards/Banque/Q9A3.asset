@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q9A3
   m_EditorClassIdentifier: 
-  content: "C'est la vie.. Mais vous m'avez l'air bien d\xE9muni, je vais vous laisser
-    une petite compensation, histoire de remettre les choses en ordre."
+  content: "Voil\xE0 une petite compensation histoire de remettre les choses en ordre."
   question: {fileID: 11400000, guid: 7f09c8245d59e274182b3786485367f1, type: 2}
   stats:
     wealth: -1

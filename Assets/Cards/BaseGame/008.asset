@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: wedding
   canBePicked: 1
   lifeTime: 0
-  content: Je veux se marier avec Narval.
+  content: Je veux me marier avec Narval.
   answers:
   - {fileID: 11400000, guid: a321c57045c98404c824788186c3e5bd, type: 2}
   - {fileID: 11400000, guid: 062093503f45ddb499927d34b3f4a3ff, type: 2}

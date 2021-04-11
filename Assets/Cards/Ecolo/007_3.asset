@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 007_3
   m_EditorClassIdentifier: 
-  content: C'est terrible, mais je crains de ne rien pouvoir faire. Dites au peuple
-    d'en consommer moins.
+  content: Je vais dire au peuple d'en consommer moins.
   question: {fileID: 11400000, guid: ef792c4691accf34e9a87b5ec5e374d0, type: 2}
   stats:
     wealth: 1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 015_1
   m_EditorClassIdentifier: 
-  content: Hors de question, laissez pirate tranquille !
+  content: Hors de question, laisse Pirate tranquille !
   question: {fileID: 11400000, guid: ba74ea87bc166604292afde60b240d2f, type: 2}
   stats:
     wealth: 0

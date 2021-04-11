@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: End_GuerreCivile
   m_EditorClassIdentifier: 
   endName: Guerre civile de la faim
-  description: Guerre civile, le peuple se bat pour de la nourriture
+  description: C'est la guerre civile ! Le peuple se bat pour de la nourriture et
+    vous feriez mieux d'en chercher aussi.
   sceneId: 0

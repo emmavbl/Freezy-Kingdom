@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 005_3
   m_EditorClassIdentifier: 
-  content: "C'est vrai, les poissons ne m\xE9ritent pas un tel traitement... Tiens,
-    faisons-les travailler ! Ils serviront \xE0 quelque chose au moins !"
+  content: "C'est vrai, les poissons ils ne m\xE9ritent pas \xE7a... Tiens, faisons-les
+    travailler !"
   question: {fileID: 11400000, guid: e705673bfe93e6f4aa1a621b191383ac, type: 2}
   stats:
     wealth: 0

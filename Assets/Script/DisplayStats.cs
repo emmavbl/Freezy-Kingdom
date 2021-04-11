@@ -63,6 +63,7 @@ public class DisplayStats : MonoBehaviour
         GameObject wealth = null;
         if (stats.wealth > 0)
         {
+            FindObjectOfType<AudioManager>().Play("Jauge+1");
             wealth = Instantiate(plus,
                 statsPosition[0].transform.position,
                 Quaternion.identity,
@@ -70,6 +71,7 @@ public class DisplayStats : MonoBehaviour
         }
         else if (stats.wealth < 0)
         {
+            FindObjectOfType<AudioManager>().Play("Jauge-1");
             wealth = Instantiate(moins,
                 statsPosition[0].transform.position,
                 Quaternion.identity,
@@ -83,6 +85,7 @@ public class DisplayStats : MonoBehaviour
         GameObject community = null;
         if (stats.community > 0)
         {
+            FindObjectOfType<AudioManager>().Play("Jauge+2");
             community = Instantiate(plus,
                 statsPosition[1].transform.position,
                 Quaternion.identity,
@@ -90,6 +93,7 @@ public class DisplayStats : MonoBehaviour
         }
         else if (stats.community < 0)
         {
+            FindObjectOfType<AudioManager>().Play("Jauge-2");
             community = Instantiate(moins,
                 statsPosition[1].transform.position,
                 Quaternion.identity,
@@ -103,6 +107,7 @@ public class DisplayStats : MonoBehaviour
         GameObject ecosystem = null;
         if (stats.ecosystem > 0)
         {
+            FindObjectOfType<AudioManager>().Play("Jauge+3");
             ecosystem = Instantiate(plus,
                 statsPosition[2].transform.position,
                 Quaternion.identity,
@@ -110,6 +115,7 @@ public class DisplayStats : MonoBehaviour
         }
         else if (stats.ecosystem < 0)
         {
+            FindObjectOfType<AudioManager>().Play("Jauge-3");
             ecosystem = Instantiate(moins,
                 statsPosition[2].transform.position,
                 Quaternion.identity,

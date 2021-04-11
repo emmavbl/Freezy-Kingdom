@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
     public static List<Card> turnDeck;
     List<Stats> turnStats = new List<Stats>(); // stats in the turn
     public int turn = 0;
-    public Place currentPlace = Place.Castle;
+    static public Place currentPlace = Place.Castle;
     public End activatedEnd;
     public bool end = false;
     static Dictionary<Place, bool> placesState = new Dictionary<Place, bool>(); //true if in add in game, else false
@@ -214,7 +214,10 @@ public class GameManager : MonoBehaviour
         // reset stats for next turn
         turnStats = new List<Stats>();
 
-		if (!end)
+        //reset place
+        currentPlace = Place.Castle;
+
+        if (!end)
 		{
             // check if end activated by stats
             KeyValuePair<Place, int> statEnd = stats.CheckEnd();

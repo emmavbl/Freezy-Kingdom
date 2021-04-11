@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_Community-
   m_EditorClassIdentifier: 
   endName: Community -
-  description: "Tout les pingouins se detestent et vous en particulier. Plus personne
+  description: "Tout les pingouins se d\xE9testent et vous en particulier. Plus personne
     ne respecte vos decisions, \xE0 quoi bon continuer de jouer ?"
   sceneId: 0

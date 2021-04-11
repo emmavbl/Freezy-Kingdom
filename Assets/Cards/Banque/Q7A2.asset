@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q7A2
   m_EditorClassIdentifier: 
-  content: Envoyons les meilleurs pingouins
+  content: Envoyons les meilleurs pingouins.
   question: {fileID: 11400000, guid: 2dac3e1770b043740a9706c89caeb414, type: 2}
   stats:
     wealth: 1

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q9A2
   m_EditorClassIdentifier: 
-  content: "Ca ne devrait pas se passer comme \xE7a. Je vais dire \xE0 la banque
-    de vous rembourser trois fois ce qu'elle vous a vol\xE9 !"
+  content: "Je vais dire \xE0 la banque de vous rembourser trois fois ce qu'elle
+    vous a vol\xE9 !"
   question: {fileID: 11400000, guid: 7f09c8245d59e274182b3786485367f1, type: 2}
   stats:
     wealth: -2

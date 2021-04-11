@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: End_moon_alone
   m_EditorClassIdentifier: 
   endName: moon_alone
-  description: "Vous avez decid\xE9 de rester sur la lune."
+  description: "Vous avez d\xE9cid\xE9 de rester sur la lune, il n'y a personne \xE0
+    gouverner l\xE0-haut."
   sceneId: 0

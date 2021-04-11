@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 014_4
   m_EditorClassIdentifier: 
   content: Confinons le peuple un petit moment, le temps que la nature reprenne des
-    forces !
+    forces.
   question: {fileID: 11400000, guid: 900a353467508eb44a246780be013979, type: 2}
   stats:
     wealth: -3

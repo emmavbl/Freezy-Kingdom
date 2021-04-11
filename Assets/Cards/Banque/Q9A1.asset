@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: Q9A1
   m_EditorClassIdentifier: 
-  content: "C'est normal ! Les pauvres c'est fait pour \xEAtre tr\xE8s pauvres, et
-    les riches, tr\xE8s riches !"
+  content: "C'est normal ! Les pauvres c'est fait pour \xEAtre tr\xE8s pauvre et
+    les riches tr\xE8s riche !"
   question: {fileID: 11400000, guid: 7f09c8245d59e274182b3786485367f1, type: 2}
   stats:
     wealth: 3

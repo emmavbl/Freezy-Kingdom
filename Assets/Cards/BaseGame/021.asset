@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: mangas
   canBePicked: 1
-  lifeTime: 0
-  content: "Tout le monde parle de \"mangas\", un genre de BD japonaise, j'aimerais
-    participer aux discussions mais \xE9tant aveugle je ne peux pas en lire...    "
+  lifeTime: 4
+  content: "J'aimerais aussi parler de mangas avec mes ami.e.s mais \xE9tant aveugle
+    je ne peux pas en lire..."
   answers:
   - {fileID: 11400000, guid: 8f9a01e1d83464040b070bb8531dfed0, type: 2}
   - {fileID: 11400000, guid: 549a6b059f607ef4b97c399e5769c80c, type: 2}

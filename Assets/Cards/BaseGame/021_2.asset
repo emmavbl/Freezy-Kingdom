@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 021_2
   m_EditorClassIdentifier: 
-  content: "Tu devrais essayer les \"anime\" en audio-description, plusieurs mangas
-    ont leur version anim\xE9e."
+  content: Tu devrais essayer les anime en audio-description.
   question: {fileID: 11400000, guid: c4c2db26dca605640a76da39de98e457, type: 2}
   stats:
     wealth: 0

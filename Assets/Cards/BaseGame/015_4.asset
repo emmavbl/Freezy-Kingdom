@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 015_4
   m_EditorClassIdentifier: 
-  content: "Oh, je trouve ces histoires de terrain fatiguantes... Faites ce que vous
-    voulez, d\xE8s maintenant les terres appartiennent \xE0 tout le monde et personne
-    \xE0 la fois !"
+  content: "Abolissons la notion de propri\xE9t\xE9 pour les terrains, j'en ai marre."
   question: {fileID: 11400000, guid: ba74ea87bc166604292afde60b240d2f, type: 2}
   stats:
     wealth: -2
