@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "La mer s'est tarie de poissons, le soleil a fait fondre vos igloos
     et vous \xEAtes design\xE9.e coupable. Le groupe choisit quelqu'un d'autre pour
     mener l'exode."
-  sceneId: 0
+  character: {fileID: 4608362335081153297, guid: 2353d616b8137424fb7cc3a53e88b23d, type: 3}

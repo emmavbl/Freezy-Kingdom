@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: exile
   description: "Vous quittez avec regret votre royaume mais laissant les habitant.e.s
     tr\xE8s heureux.ses."
-  sceneId: 0
+  character: {fileID: 1427893516550275190, guid: 5584b0d1e3456824f8fbd804db554558, type: 3}

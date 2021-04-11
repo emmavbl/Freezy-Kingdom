@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 81932851}
   - component: {fileID: 81932850}
   - component: {fileID: 81932849}
+  - component: {fileID: 81932853}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -291,6 +292,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &81932853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81932848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00bf2e3f837b03f40a2576a403837b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &153234765
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,206 +773,206 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Theme
-    clip: {fileID: 8300000, guid: 3bbc4e80c28c62145abc09f9a293b229, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: f9dd551e8f381cc47b3afa892823590d, type: 3}
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Castle
     clip: {fileID: 8300000, guid: 44f605056914a024cac42ebd57f69e33, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Bank
     clip: {fileID: 8300000, guid: 7b4238a08a94ab541a97eab2d0466395, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: School
     clip: {fileID: 8300000, guid: e136fee689a30bf4496a7d9a5a8b116d, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Fishing
     clip: {fileID: 8300000, guid: 25c043ca82fc1f04c90e234911f9d707, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Nuit
-    clip: {fileID: 8300000, guid: 662b1e123d05f54448a939ba11fc3fc9, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: 9099210bf64ead647ad125a296f8ce5f, type: 3}
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Menu_yes
-    clip: {fileID: 8300000, guid: f3980d8238fff274b852684e0144f5f8, type: 3}
+    clip: {fileID: 8300000, guid: c2e5c9b635a912f45a91178fb2fe745d, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Menu_no
-    clip: {fileID: 8300000, guid: 094cc760096b08541aa9e32308059189, type: 3}
+    clip: {fileID: 8300000, guid: 8fe8c4a3c57e75d42b01e0f7d80f659e, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge-1
-    clip: {fileID: 8300000, guid: 81e8d285b03b8084f998c58e661c2b7e, type: 3}
+    clip: {fileID: 8300000, guid: 5dd592abded986345a42cbc48bbe3ec6, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge-2
-    clip: {fileID: 8300000, guid: 1f7999540449d1d419abeadec5461e84, type: 3}
+    clip: {fileID: 8300000, guid: a989a93ed5e15b34695425c31dcfec8c, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge-3
-    clip: {fileID: 8300000, guid: c7da9386794de9c44be5ebe0ea2e7819, type: 3}
+    clip: {fileID: 8300000, guid: 00281a206ee84814f8412a37ce3b3c16, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge+1
-    clip: {fileID: 8300000, guid: 4a19f73c037196b49b81fc4464e1265a, type: 3}
+    clip: {fileID: 8300000, guid: 88d6d3fa233bb2d42ba271b533824eb8, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge+2
-    clip: {fileID: 8300000, guid: 704773d102c700a4d9689f8729ae71ba, type: 3}
+    clip: {fileID: 8300000, guid: a9f4508887e53e749917fce0c49f33bb, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Jauge+3
-    clip: {fileID: 8300000, guid: 29f6773daf9514742a6097529ca683ee, type: 3}
+    clip: {fileID: 8300000, guid: 1a482a44797d2034aa33cad2d51602b3, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Narwhal
-    clip: {fileID: 8300000, guid: 54a8edbb4daf2174082e80b3c3e0062f, type: 3}
+    clip: {fileID: 8300000, guid: c25a677c775ed844f9ae55adc5e7b0cb, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Walrus_1
-    clip: {fileID: 8300000, guid: fc7c8565beb91674980199f09a406357, type: 3}
+    clip: {fileID: 8300000, guid: 055f0f47ea3dc4547ab04aadf5f9b16e, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Walrus_2
-    clip: {fileID: 8300000, guid: e7095fa8f7ceef341b7bccffd37f5e1c, type: 3}
+    clip: {fileID: 8300000, guid: bf009eeb7759c464fa25838ce8b0050d, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Walrus_3
-    clip: {fileID: 8300000, guid: 5aa71e3bfb6bb2f46b842b76e5461d18, type: 3}
+    clip: {fileID: 8300000, guid: 27656ae4ed9214046b69cc19bdbf12cb, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Bear_1
-    clip: {fileID: 8300000, guid: 8832c8d970108e04185398104cb46f02, type: 3}
+    clip: {fileID: 8300000, guid: 8db874b0983c7a541ac05eeba37c50c3, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Bear_2
-    clip: {fileID: 8300000, guid: 55b1903297c84ed4ab2e7f02e659c6bf, type: 3}
+    clip: {fileID: 8300000, guid: 975ad7f694296b4478fc5fc82dfcd5d9, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Bear_3
-    clip: {fileID: 8300000, guid: 0b082820452735f4b883923cafa44cab, type: 3}
+    clip: {fileID: 8300000, guid: 9235c78c471786244ac23d1c25024585, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_1
-    clip: {fileID: 8300000, guid: 966eed5c7cfa6204f8eb5299b5ce3f3b, type: 3}
+    clip: {fileID: 8300000, guid: 402be5f89fe00de4eb419967d025d9d1, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_2
-    clip: {fileID: 8300000, guid: 0b082820452735f4b883923cafa44cab, type: 3}
+    clip: {fileID: 8300000, guid: 6fd0cf5a08a8e0344b32a31460feb75e, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_3
-    clip: {fileID: 8300000, guid: 9086f2cdc55110d408d5587236f1b81d, type: 3}
+    clip: {fileID: 8300000, guid: 9ddc37bcc86bc5048bd1524a515c4787, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_4
-    clip: {fileID: 8300000, guid: 17d17021ad7747e4babf1dc816cb7014, type: 3}
+    clip: {fileID: 8300000, guid: e7d498ca62a562941b4475f7c1f7bacc, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_5
-    clip: {fileID: 8300000, guid: dd1dc2b2225347943b69eb4ec7b861f2, type: 3}
+    clip: {fileID: 8300000, guid: 838c311e31cc69841b7ab4f1356aa652, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_6
-    clip: {fileID: 8300000, guid: 8b02bd2854758944fa2bc3958ef95e4d, type: 3}
+    clip: {fileID: 8300000, guid: 279d870ba78919843b12385c1a4cd08e, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_7
-    clip: {fileID: 8300000, guid: dfd2d4c37f52d7741b5ad9aa0811f8c4, type: 3}
+    clip: {fileID: 8300000, guid: e09db93d15f21a34196536ceb805e258, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_8
-    clip: {fileID: 8300000, guid: 9b428cfaed9a854409def585011df6b0, type: 3}
+    clip: {fileID: 8300000, guid: 3c9d6f789ed57bd4b951518be469a72b, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_9
-    clip: {fileID: 8300000, guid: 27c05abc7d521e64296cfbb3a32f69be, type: 3}
+    clip: {fileID: 8300000, guid: 9c5aed81f3cef0240b03ac516ede8367, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_10
-    clip: {fileID: 8300000, guid: 70c6f1479a0156f459cd2279572a2eb7, type: 3}
+    clip: {fileID: 8300000, guid: a927e679902ad334c82054c88d6da21c, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_11
-    clip: {fileID: 8300000, guid: 141d2f973a8161043a273b708d49dca1, type: 3}
+    clip: {fileID: 8300000, guid: bdc07b292c21e4b4788f2e41f4869f71, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Penguin_12
-    clip: {fileID: 8300000, guid: e220c8e12611f564a8a98ce5bb1d2908, type: 3}
+    clip: {fileID: 8300000, guid: e020cedcf6c3b9446b08aadfdcca8fc3, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: GameOver
     clip: {fileID: 8300000, guid: 9fbf908c1c4f81c4ead03b63ec02ca3f, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -1197,6 +1210,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 13785bc3af2168641abe3d55d0180d47, type: 2}
     - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: settingBankCard
+      value: 
+      objectReference: {fileID: 11400000, guid: 73aacd3b32b802349b7144a013f40768, type: 2}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
       propertyPath: tooLowCommunity
       value: 
       objectReference: {fileID: 11400000, guid: c720586ca438f6b499a24d0130a0df82, type: 2}
@@ -1212,6 +1229,14 @@ PrefabInstance:
       propertyPath: tooMuchEcosystem
       value: 
       objectReference: {fileID: 11400000, guid: ec680a9cae4dc4142b52d54bd5f940fa, type: 2}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: settingSchoolCard
+      value: 
+      objectReference: {fileID: 11400000, guid: 9645dcd1d4f21a34c88917f1b9c85ed8, type: 2}
+    - target: {fileID: 1478381918077381774, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
+      propertyPath: settingFishingCard
+      value: 
+      objectReference: {fileID: 11400000, guid: a1995ecdd7a04684c881bb6c97b4004b, type: 2}
     - target: {fileID: 1478381918077381775, guid: 5f8af7e0a0fba4c41adc761bf395f678, type: 3}
       propertyPath: m_Name
       value: GameManager

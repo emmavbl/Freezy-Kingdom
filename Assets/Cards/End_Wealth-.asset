@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: Wealth --
   description: "Vos poches sont vides ! Aucun pingouin ne vous \xE9coute plus, on
     vous chasse du palais \xE0 coups de nageoire."
-  sceneId: 0
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

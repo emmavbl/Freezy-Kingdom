@@ -46,9 +46,12 @@ public class GameManager : MonoBehaviour
     public static Deck[] currentGameplayDeck = new Deck[3]; // 0: playable, 1: notplayable, 2: played
 
     // card morning ask for going in place ?
-    public Card schoolCard;
-    public Card bankCard;
-    public Card fishingCard;
+    public Card settingSchoolCard; // seting var
+    static public Card schoolCard;
+    public Card settingBankCard;
+    static public Card bankCard;
+    public Card settingFishingCard;
+    static public Card fishingCard;
 
     // Game parameters
     public static List<Card> turnDeck;
@@ -78,6 +81,7 @@ public class GameManager : MonoBehaviour
         {
             inst = this;
             InitGame();
+
         }
         else
         {
@@ -100,6 +104,10 @@ public class GameManager : MonoBehaviour
         placesState.Add(Place.Bank, false);
         placesState.Add(Place.Fishing, false);
         placesState.Add(Place.School, false);
+
+        schoolCard = settingSchoolCard;
+        bankCard = settingBankCard;
+        fishingCard = settingFishingCard;
 
         currentGameDecks = startingDecks;
         ResetGame();
@@ -140,9 +148,7 @@ public class GameManager : MonoBehaviour
 
         // initialisation
         // choose character
-        FindObjectOfType<AudioManager>().Stop("GameOver");
-        FindObjectOfType<AudioManager>().Play("Theme");
-
+        FindObjectOfType<AudioManager>().Stop("Theme");
         Turn();
 	}
 
@@ -333,6 +339,7 @@ public class GameManager : MonoBehaviour
 		foreach (Card card in currentGameplayDeck[2].cards)
 		{
             card.lifeTime--;
+            Debug.Log(card.cardName + " lifetime :" + card.lifeTime);
             if (card.lifeTime <= 0)
 			{
                 toRemove.Add(card);

@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: M. Morse
   description: "M. Morse passe maintenant son chasse-neige la nuit. Personne n'arrive
     \xE0 dormir et tout le monde vous en veut."
-  sceneId: 0
+  character: {fileID: 2906467737086859071, guid: e1626c8a338e06340a5d940d0160752c, type: 3}

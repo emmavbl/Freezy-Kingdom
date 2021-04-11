@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "La communaut\xE9 des pingouins s'est emancip\xE9e. Tout le monde
     s'entraide et s'entend bien. Ils n'ont plus besoin d'un chef pour prendre les
     d\xE9cisions. "
-  sceneId: 0
+  character: {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}

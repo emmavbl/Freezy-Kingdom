@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "Vous avez r\xE9ussi \xE0 inverser le rechauffement climatique et
     enclencher une \xE8re glaci\xE8re. Heureusement que nous sommes des pingouins
     ! "
-  sceneId: 0
+  character: {fileID: 4608362335081153297, guid: 2353d616b8137424fb7cc3a53e88b23d, type: 3}

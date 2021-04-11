@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: moon_accident
   description: "Un accident se produit lors du d\xE9collage de la fus\xE9e et l'on
     vous \xE9carte du pouvoir, dommage."
-  sceneId: 0
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

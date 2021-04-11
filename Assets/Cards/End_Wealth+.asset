@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: Wealth ++
   description: "Vous avez trop d'argent. Vous vous exilez sur votre \xEEle priv\xE9e
     et abandonnez vos amis pingouins sur leur gla\xE7on."
-  sceneId: 0
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

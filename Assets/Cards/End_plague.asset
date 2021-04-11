@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "Votre manque d'\xE9coute des scientifiques vous a co\xFBt\xE9 cher
     : votre peuple est gravement malade et tout le monde d\xE9serte le royaume. Vous
     \xEAtes une des derni\xE8res personnes rest\xE9e au village."
-  sceneId: 0
+  character: {fileID: 227997818878884776, guid: 0b4eae7798990084e87e1d5bf42b2211, type: 3}

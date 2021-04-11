@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: Guerre civile de la faim
   description: C'est la guerre civile ! Le peuple se bat pour de la nourriture et
     vous feriez mieux d'en chercher aussi.
-  sceneId: 0
+  character: {fileID: 6444246292806332595, guid: a4fdccd1eb8c52e448aa76a2bad7a82b, type: 3}

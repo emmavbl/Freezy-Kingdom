@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: Community -
   description: "Tout les pingouins se d\xE9testent et vous en particulier. Plus personne
     ne respecte vos decisions, \xE0 quoi bon continuer de jouer ?"
-  sceneId: 0
+  character: {fileID: 5522288638671204199, guid: 3791368e47d913446bb58a7522dbc82c, type: 3}

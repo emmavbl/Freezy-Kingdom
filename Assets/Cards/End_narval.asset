@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: mangas
   description: "En pr\xE9f\xE9rant ne pas \xE9couter narval, vous vous \xEAtes mis
     le village \xE0 dos. \xC7a vous servira de le\xE7on."
-  sceneId: 0
+  character: {fileID: 7611522070233587872, guid: 4a3476d19f65f5b409a6944b783230f2, type: 3}

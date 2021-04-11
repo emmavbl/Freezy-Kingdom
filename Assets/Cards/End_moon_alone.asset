@@ -15,4 +15,4 @@ MonoBehaviour:
   endName: moon_alone
   description: "Vous avez d\xE9cid\xE9 de rester sur la lune, il n'y a personne \xE0
     gouverner l\xE0-haut."
-  sceneId: 0
+  character: {fileID: 1427893516550275190, guid: 5584b0d1e3456824f8fbd804db554558, type: 3}
