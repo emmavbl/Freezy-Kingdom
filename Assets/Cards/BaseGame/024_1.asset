@@ -22,5 +22,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9fcfc11b25edfa04e849eec6d0183b63, type: 2}
   endToUnlock: {fileID: 0}
   placeToUnlock: 0
-  lifetimeQuestion: 15
+  lifetimeQuestion: 6
   morningAnswer: 0

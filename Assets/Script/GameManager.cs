@@ -17,8 +17,8 @@ public class GameManager : MonoBehaviour
     // Player
     // Character currentCharacter;
 
-    // current game stats (scale from 0 to 40)
-    static Stats stats = new Stats(20, 20, 20);
+    // current game stats (scale from 0 to 20)
+    static Stats stats = new Stats(10, 10, 10);
 
     // All decks of questions-card 
     [SerializeField] Deck[] startingDecks; // do not modify ! 
@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
     public void ResetGame()
     {
         // reset stats
-        stats = new Stats(20, 20, 20);
+        stats = new Stats(10, 10, 10);
 
         // reset end
         activatedEnd = null;
@@ -151,6 +151,17 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<AudioManager>().Stop("Theme");
         Turn();
 	}
+
+
+    // Update is called once per frame
+    void Update()
+    {
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+            Debug.Log("Quit");
+            Application.Quit();
+		}
+    }
 
     public void Turn()
 	{
