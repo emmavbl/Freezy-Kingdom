@@ -17,17 +17,21 @@ public class StartCinematic : MonoBehaviour
 
         }
 
+        string[] tab = new string[]
+        {
+            "Philéas", "Louve", "Raphael", "Mael", "Owen", "Wesley", "Emma", "Océane", "Noa", 
+            "Salim", "Nicola", "Lucas", "Lara", "Evan", "Titouan", "Charles", "Hugo","Mathieu", "Angie", "Éloïse"
+        };
         Image[] bulles = GetComponentsInChildren<Image>();
 		for (int i = 2; i < 4; i++)
 		{
             bulles[i].transform.localScale = new Vector3(0, 0, 0);
             LeanTween.scale(bulles[i].gameObject, new Vector3(1, 1, 1), 0.5f).setEaseOutBack().setDelay((i-2)*2f);
+			if (i == 3)
+			{
+                bulles[i].GetComponentInChildren<Text>().text = "Oh non c'est toujours toi " + tab[Random.Range(0, tab.Length)] + " !";
+			}
         }
-
-
-
-        // Animate sprite
-        //Invoke("Continue", 5);
 
     }
 
@@ -37,7 +41,7 @@ public class StartCinematic : MonoBehaviour
         
     }
 
-    void Continue()
+    public void Continue()
 	{
         FindObjectOfType<GameManager>().GetScene(2);
     }

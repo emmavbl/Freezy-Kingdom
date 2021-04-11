@@ -21,8 +21,10 @@ public class PinguinGenerator : MonoBehaviour
                 0
                 );
             ;
-            Instantiate(temp, transform.position + offset , Quaternion.identity, transform);
+            var tmp = Instantiate(temp, transform.position + offset , Quaternion.identity, transform);
+            tmp.transform.localScale = new Vector3(1, 1, 1) * i / pinguinNumber;
 		}
+
     }
 
     // Update is called once per frame
