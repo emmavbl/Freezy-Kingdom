@@ -27,6 +27,7 @@ public class DisplayStats : MonoBehaviour
     public void OnClick()
 	{
         Button button = GetComponentInChildren<Button>();
+        FindObjectOfType<AudioManager>().Play("Q2");
         LeanTween.scale(button.gameObject, new Vector3(0, 0, 0), .5f).setEaseInBack();
         Invoke("EndNigth", 0.5f);
     }

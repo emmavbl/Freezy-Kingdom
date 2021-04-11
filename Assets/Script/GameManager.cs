@@ -198,6 +198,8 @@ public class GameManager : MonoBehaviour
             Quaternion.identity,
             FindObjectOfType<Canvas>().transform);
 
+        FindObjectOfType<AudioManager>().Play("Nuit");
+
         temp_screen.GetComponentInChildren<Button>().transform.localScale = new Vector3(0, 0, 0);
         Button button = temp_screen.GetComponentInChildren<Button>();
         LeanTween.scale(button.gameObject, new Vector3(1, 1, 1), .5f).setEaseOutBack().setDelay(6.5f);
@@ -267,6 +269,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
 	{
+        FindObjectOfType<AudioManager>().Play("GameOver");
         GetScene(3);
 	}
 
