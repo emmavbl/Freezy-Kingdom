@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a9ad42bf56f154c80bea32b58a8382, type: 3}
   m_Name: 025_4
   m_EditorClassIdentifier: 
-  content: Mes scientifiques vous expliqueront pourquoi il n'est pas dangereux. Prenez
-    soin de vos proches !
+  content: Mes scientifiques vous expliqueront pourquoi il n'est pas dangereux.
   question: {fileID: 11400000, guid: 657b72f2fad25ec40a8931056f7fb38b, type: 2}
   stats:
     wealth: -1
