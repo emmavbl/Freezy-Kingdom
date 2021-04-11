@@ -12,6 +12,12 @@ public class DisplayQuestion : MonoBehaviour
 
     public GameObject[] buttonsPosition;
     public GameObject characterPosition;
+    public GameObject backgroundPlace;
+    public GameObject backgroundPosition;
+
+    [SerializeField] Sprite schoolSprite;
+    [SerializeField] Sprite fishingSprite;
+    [SerializeField] Sprite bankSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -33,10 +39,34 @@ public class DisplayQuestion : MonoBehaviour
         card = _card;
 
         questionText.text = _card.content;
+        Debug.Log(GameManager.currentPlace);
+        // set background
+        Sprite background = null;
+        Destroy(backgroundPosition.GetComponentInChildren<Image>());
+		switch (GameManager.currentPlace)
+		{
+			case Place.Fishing:
+                background = fishingSprite;
+				break;
+			case Place.School:
+                background = schoolSprite;
+				break;
+			case Place.Bank:
+                background = bankSprite;
+				break;
+			default:
+                background = null;
+				break;
+		}
+        if (background != null)
+		{
+            var obj = Instantiate(backgroundPlace, transform.position, Quaternion.identity, backgroundPosition.transform);
+            obj.GetComponentInChildren<Image>().sprite = background;
+		}
 
 
-        //destroy previous character
-        if (characterPosition.transform.childCount > 0)
+		//destroy previous character
+		if (characterPosition.transform.childCount > 0)
 		{
             var character = characterPosition.transform.GetChild(0);
             Debug.Log(character.gameObject);
@@ -53,12 +83,14 @@ public class DisplayQuestion : MonoBehaviour
         // give them back !
         AddButtons();
 
-        Instantiate(card.character,
-                characterPosition.transform.position,
+        // get character 
+        Vector3 position = new Vector3(-100, characterPosition.transform.position.y, characterPosition.transform.position.z);
+        var temp = Instantiate(card.character,
+                position,
                 Quaternion.identity,
                 characterPosition.transform);
-
-	}
+        LeanTween.moveX(temp, characterPosition.transform.position.x, 0.5f).setEaseOutBack();
+    }
 
     void AddButtons()
 	{
