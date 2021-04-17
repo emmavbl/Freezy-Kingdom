@@ -21,11 +21,6 @@ public class DisplayStats : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void OnClick()
 	{
@@ -60,19 +55,19 @@ public class DisplayStats : MonoBehaviour
 		{
             RectTransform[] positions = pinguins[i].GetComponentsInChildren<RectTransform>();
 
-			if (gameStats[i] >= 20) //si le pigouin est content
+			if (gameStats[i] >= 10) //si le pigouin est content
 			{
                 var GO_happy = Instantiate(happy,
                     positions[2].transform.position, 
                     Quaternion.identity,
                     positions[2].transform);
-                GO_happy.transform.localScale = new Vector3(1f, 1f, 1f) * ((Mathf.Abs(gameStats[i]-20) / 20)+0.2f);
+                GO_happy.transform.localScale = new Vector3(1f, 1f, 1f) * ((Mathf.Abs(gameStats[i]-10) / 10)+0.2f);
 
                 var GO_black = Instantiate(black,
                     positions[1].transform.position,
                     Quaternion.identity,
                     positions[1].transform);
-                GO_black.GetComponent<CanvasGroup>().alpha = (Mathf.Abs(gameStats[i] - 20f) / 20f)+0.2f;
+                GO_black.GetComponent<CanvasGroup>().alpha = (Mathf.Abs(gameStats[i] - 10f) / 10f)+0.2f;
             }
 			else
 			{
@@ -80,7 +75,7 @@ public class DisplayStats : MonoBehaviour
                     positions[2].transform.position,
                     Quaternion.identity,
                     positions[2].transform);
-                GO_anger.transform.localScale = new Vector3(1f, 1f, 1f) * ((Mathf.Abs(gameStats[i] - 20) / 20)+0.2f);
+                GO_anger.transform.localScale = new Vector3(1f, 1f, 1f) * ((Mathf.Abs(gameStats[i] - 10) / 10)+0.2f);
 
             }
         }
@@ -115,7 +110,7 @@ public class DisplayStats : MonoBehaviour
         }
 		if (wealth != null)
 		{
-			wealth.transform.localScale = new Vector3(1, 1, 1) * (1 + ((Mathf.Abs(stats.wealth)-1)*0.5f));
+			wealth.transform.localScale = new Vector3(.5f, .5f, .5f) * (1 + ((Mathf.Abs(stats.wealth)-1)*0.5f));
 		}
 
         GameObject community = null;
@@ -137,7 +132,7 @@ public class DisplayStats : MonoBehaviour
         }
 		if (community != null)
 		{
-			community.transform.localScale = new Vector3(1, 1, 1) * (1 + ((Mathf.Abs(stats.community)-1) * 0.5f));
+			community.transform.localScale = new Vector3(.5f, .5f, .5f) * (1 + ((Mathf.Abs(stats.community)-1) * 0.5f));
 		}
 
         GameObject ecosystem = null;
@@ -159,7 +154,7 @@ public class DisplayStats : MonoBehaviour
         }
 		if (ecosystem != null)
 		{
-			ecosystem.transform.localScale = new Vector3(1, 1, 1) * ( 1 + ((Mathf.Abs(stats.ecosystem)-1) *0.5f));
+			ecosystem.transform.localScale = new Vector3(.5f, .5f, .5f) * ( 1 + ((Mathf.Abs(stats.ecosystem)-1) *0.5f));
 		}
 
     }

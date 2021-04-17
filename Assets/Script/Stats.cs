@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Stats
 {
-    // current game stats (scale from 0 to 40)
+    // current game stats (scale from 0 to 20)
     public float wealth;
     public float community;
     public float ecosystem;
@@ -33,7 +33,7 @@ public class Stats
     public KeyValuePair<Place, int> CheckEnd()
 	{
 		KeyValuePair<Place, int> end = new KeyValuePair<Place, int>(Place.Castle, 0) ;
-		if (wealth >= 40)
+		if (wealth >= 20)
 		{
 			end = new KeyValuePair<Place, int>(Place.Bank, 1);
 		}
@@ -41,7 +41,7 @@ public class Stats
 		{
 			end = new KeyValuePair<Place, int>(Place.Bank, -1);
 		}
-		else if (ecosystem >= 40)
+		else if (ecosystem >= 20)
 		{
 			end = new KeyValuePair<Place, int>(Place.Fishing, 1);
 		}
@@ -49,7 +49,7 @@ public class Stats
 		{
 			end = new KeyValuePair<Place, int>(Place.Fishing, -1);
 		}
-		else if (community >= 40)
+		else if (community >= 20)
 		{
 			end = new KeyValuePair<Place, int>(Place.School, 1);
 		}

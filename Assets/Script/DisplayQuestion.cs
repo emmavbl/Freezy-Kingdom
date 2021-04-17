@@ -13,7 +13,7 @@ public class DisplayQuestion : MonoBehaviour
     public GameObject characterPosition;
     public GameObject backgroundPlace;
     public GameObject backgroundPosition;
-
+    
     [SerializeField] Sprite schoolSprite;
     [SerializeField] Sprite fishingSprite;
     [SerializeField] Sprite bankSprite;
@@ -66,7 +66,7 @@ public class DisplayQuestion : MonoBehaviour
 		}
         if (background != null)
 		{
-            var obj = Instantiate(backgroundPlace, transform.position, Quaternion.identity, backgroundPosition.transform);
+            var obj = Instantiate(backgroundPlace, backgroundPosition.transform.position, Quaternion.identity, backgroundPosition.transform);
             obj.GetComponentInChildren<Image>().sprite = background;
 		}
 
